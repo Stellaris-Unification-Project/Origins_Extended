@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------
+ORIGINS EXTENDED VERSION 1.4.3 CHANGE NOTES
+---------------------------------------------------------------------------------------------
+
+// GENERAL
+- Tentative fixe deployed for Sol disappearing or getting nuked too often.
+
+// THREE BODY PROBLEM
+- Origin will no longer be used by AI empires.

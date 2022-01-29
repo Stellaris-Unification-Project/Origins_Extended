@@ -1,0 +1,835 @@
+﻿l_german:
+
+ # starless origin
+ originsextended_starless:0 "Sternenlos"
+ originsextended_starless_desc:0 "§RDies gilt als herausfordernder Start, da es keine garantierten bewohnbaren Planeten in der Nähe gibt.§!\n\nAuf einem lebensfeindlichem Planeten geboren, ist diese Zivilisation ohne Stern am Himmel aufgewachsen, nur noch die unnachgiebige Dunkelheit eines Schwarzen Lochs, die die Landschaften ihrer trostlosen Heimatwelt für immer in Dunkelheit ertränkt."
+ originsextended_tooltip_starless:0 "- Beginnt mit einer §YTote Welt§! als Heimatplanet, im Orbit um ein §YSchwarzes Loch§!\n- Erhält die Eigenschaft §Y$trait_originsextended_starless$§!:\n  Bewohnbarkeit: §R-10%§!\n  £minerals£ Mineralien von £pops£ Jobs: §G+10%§!"
+
+ # starless trait
+ trait_originsextended_starless:0 "Sternenlos"
+ trait_originsextended_starless_desc:0 "§LDa diese Spezies ohne Stern geboren wurde, muss sie andere Welten mit Sternen finden, die ihrer Entwicklung unbarmherzig gegenüberstehen.§!"
+
+ originsextended_starless_system_NAME:0 "Sternenloses System"
+ originsextended_starless_system_DESC:0 "§LDies ist das anfängliche Startsystem für den Sternenlos-Ursprung. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ # shattered world site
+ starless_site_shattered:0 "Zerstörte Überreste"
+ starless_site_shattered_desc:0 "Die Überreste dieses zerstörten Planeten zeigen kleine koloniale Siedlungen, die auf der Oberfläche einiger der größeren, verstreuten Brocken liegen. Weitere Untersuchungen werden empfohlen."
+
+ starless.200.name:0 "Zerstörte Überreste"
+ starless.200.desc:0 "Mit unserer Expansion in den interstellaren Raum konnten wir unser eigenes Heimatsystem genauer betrachten. Es scheint, dass ein paar der Überreste vom zerstörten §Y[starless_shattered.GetName]§! die Ruinen kleinerer Siedlungen aufweisen. Unsere wissenschaftliche Gemeinschaft bittet darum, dass wir mehr Zeit investieren, um dieses Phänomen zu untersuchen."
+ starless.200.a:0 "Wie eigenartig."
+
+ starless.201.name:0 "In Großer Eile"
+ starless.201.desc:0 "Auf den ersten Blick scheint es, dass die verbleibenden Strukturen von §Y[starless_shattered.GetName]§! tatsächlich die Überreste längst verlassener Siedlungen sind, die anscheinend ohne ersichtlichen Grund schnell aufgegeben wurden.\n\nObwohl einige der Überreste dieser Gebäude zwischen die zerschmetterte Teile von §Y[starless_shattered.GetName]§! gefallen sind und andere ihren mittlerweile auf dem Weg zum Horizont von §Y[Root.Capital.GetStarName]§! unterwegs sind, sind die Meisten noch immer unter Staub und anderen Überresten verschüttet."
+ starless.201.a:0 "Grabt weiter! Aber versucht nicht herunterzufallen..."
+
+ starless.202.name:0 "Beaufsichtigung"
+ starless.202.desc:0 "Die Entschlüsselung der Sprache und der Systeme dieser alten Siedler hat unseren Verdacht bestätigt, dass die kolonialen Bemühungen der Kolonie schnell aufgegeben wurden und alles zurückgelassen wurde. Offenbar war §Y[starless_shattered.GetName]§! einst eine üppige, wenn auch heiße und trockene Welt, was bizarr erscheint, wenn man das Schwarze Loch und die die Nähe des Planeten dazu berücksichtigt.\n\nVielleicht führt unsere Suche zu weiteren Antworten?"
+ starless.202.a:0 "Seltsam."
+
+ starless.203.name:0 "Sehr knapp"
+ starless.203.desc:0 "Das Durchsuchen der letzten Überreste der Datenbanken der Kolonie hat ergeben, dass sich die Kolonie in ihren ersten Stadien relativ kurz vor dem Kollaps des Sterns befand, den sie umkreiste. Als §Y[Root.Capital.GetStarName]§! zusammenbrach und §Y[starless_shattered.GetName]§! auseinanderreißte, endeten die Kolonisierungsbemühungen ziemlich abrupt.\n\nGlücklicherweise, so scheint es, wurde die Kolonie rechtzeitig evakuiert, nachdem die schlimmeren Anzeichen des Untergangs des Systems offensichtlich wurden. Das erklärt auch den Zustand, in dem sich der Planet kurz vor seinem Kollaps und noch vor der Koloniserung befand. Der sich schnell ausdehnende Stern, den er umkreiste, erzeugte viel mehr Wärme und machte die Oberfläche bewohnbar. Es scheint, dass die Zivilisation in ihren Bemühungen, den Planeten zu kolonisieren, so überstürzt war, dass sie ihren bevorstehenden Untergang nicht bemerkten. Vielleicht hatten sie aber auch etwas Wichtigeres im Sinn?"
+ starless.203.a:0 "Womöglich."
+
+ # broken world site
+ starless_site_broken:0 "Aufgebrochen"
+ starless_site_broken_desc:0 "§Y[starless_broken.GetName]§! scheint sein Schicksal auf etwas anderes als das zentrale Schwarze Loch des Systems zurückzuführen. Weitere Hinweise werden benötigt, um herauszufinden, was mit dem Planeten passiert ist."
+
+ starless.300.name:0 "Aufgebrochen"
+ starless.300.desc:0 "Auf den ersten Blick scheint es, dass §Y[starless_broken.GetName]§! von §Y[Root.Capital.GetStarName]§! zerrissen wurde, aber eine vorläufige Analyse des Planeten zeigt, dass er ohne die Hilfe des Schwarzen Lochs oder vielleicht sogar svhon vorher seinem Schicksal erlegen ist. Es könnte sich lohnen, sich damit zu befassen, bevor wir uns zu weit aus unserem Heimatsystem herauswagen." starless.300.a:0 "Faszinierend."
+
+ starless.301.name:0 "Große Operation"
+ starless.301.desc:0 "Die ersten Ausgrabungen an den Überresten von §Y[starless_broken.GetName]§! enthüllen, was anscheinend uralte Bohrgeräte von planetarischem Maßstab sind. Das meiste davon mit einer Art orbitalem Positionierungssystem. Es ist merkwürdig, dass sie über die Oberfläche des Planeten verstreut lagen, das meiste davon in akzeptablem Zustand, auch wenn es einige tausend Jahre alt war.\n\nAnhand der Beweise für große Krater, Tunnelnetzwerke und riesige, aber sauber geschnitzte Spalten, die durch die zerbrochene Oberfläche des Planeten freigelegt wurden, glauben wir, dass die Ausrüstung eine Art Terraforming- oder Bergbauzweck hatte. Allerdings glauben wir, dass diese erst nach der Entstehung des schwarzen Lochs gegraben wurden, was selbst auch schon einige Millionen Jahre alt ist."
+ starless.301.a:0 "Grabt weiter!"
+
+ starless.302.name:0 "Überbohrt"
+ starless.302.desc:0 "Weitere Analysen und Ausgrabungen haben bewiesen, dass es sich bei der gefundenen Ausrüstung tatsächlich um Bergbau- und Bohrausrüstung handelte. Soweit wir anhand alter, übersetzter Aufzeichnungen und Protokolle feststellen können, hatte §Y[starless_broken.GetName]§! einst große Mengen sehr seltener Ressourcen, was zu den enormen Bergbauarbeiten führte.\n\nEs dauerte jedoch nicht lange, bis die Ausrüstung und die planetare Stabilität versagten, was eine katastrophale Kette von Ausrüstungsfehlfunktionen und tektonischer Destabilisierung auslöste. Das ist wahrscheinlich der Grund, warum die beschädigte Ausrüstung, die wir fanden, beschädigt war.\n\nDer Planet, der letztendlich überbohrt und abgenutzt war, brach auseinander, was zur Aufgabe des Bergbaubetriebs führte, bevor der Kern des Planeten unter dem Stress explodierte."
+ starless.302.a:0 "Boom!"
+
+ starless.303.name:0 "Was übrig bleibt"
+ starless.303.desc:0 "In den letzten Überresten der Bergbauoperation auf §Y[starless_broken.GetName]§! konnten wir einige dieser berüchtigten seltenen Ressourcen finden, die einige alte Imperien so verzweifelt haben wollten. Obwohl das meiste schon weg war, ergibt das, was wir finden konnten, zusammen mit der Verschrottung der gesamten alten Ausrüstung, einen praktischen Ressourcenvorrat."
+ starless.303.a:0 "Durchaus praktisch."
+
+ # frozen barren world site
+ starless_site_frozen:0 "Einsamer Außenposten"
+ starless_site_frozen_desc:0 "Ein verlassenes Gebäude unbekannter Art sitzt auf der zugefrorenen Oberfläche von §Y[starless_barrencold.GetName]§!, dass praktisch nach archöalogischen Ausgrabungen bettelt."
+
+ starless.400.name:0 "Einsamer Außenposten"
+ starless.400.desc:0 "Unser wissenschaftlicher Fortschritt, der es uns ermöglicht, unser Heimatsystem zu verlassen und zu erforschen, hat tatsächlich etwas ziemlich Interessantes auf dem gefrorenen Ödland namens §Y[starless_barrencold.GetName]§! enthüllt. Anscheinend beherbergt die Oberfläche des Planeten eine Art verlassenes Gebäude. Weitere Untersuchungen sind notwendig, um herauszufinden, was diese seltsame Struktur enthält, insbesondere so nah an unserem Heimatplaneten."
+ starless.400.a:0 "Seltsam."
+
+ starless.401.name:0 "Laboratorium"
+ starless.401.desc:0 "Nachdem man es endlich geschafft hat, in das Gebäude zu gelangen, was selbst ziemlich rudimentär erscheint, ist es ziemlich offensichtlich, dass dieses Gebäude als eine Art abgelegenen Forschungsaußenposten diente. Uralte Computer, Datenbanken und verschiedene Arten an Forschungsausrüstung.\n\nDarüber hinaus gibt es derzeit jedoch keine Hinweise. Die vorliegende Ausrüstung und Materialien scheinen wie eine grundlegende Forschungsausrüstung zu sein, nichts, was eine abgelegene, gefrorene Station im System eines Schwarzen Lochs erfordern würde."
+ starless.401.a:0 "Grabt weiter!"
+
+ starless.402.name:0 "Data, Data, Data"
+ starless.402.desc:0 "Die Entschlüsselung der Sprache dieser alten außerirdischen Station zeigt, dass nur wenige Forscher, vielleicht drei oder vier, in der Station tatsächlich arbeiteten und sie kaum verließen. Als wir die verfügbaren Datenbanken untersuchten, konnten wir Beweise dafür finden, dass dieser Außenposten einer Art von Datensammlungszwecken diente. Millionen von Grafiken, Diagrammen, Tabellenkalkulationen und ziemlich zufälligen Datenpunkten über so gut wie alles, Schwankungen in den Gravitationsmustern von §Y[Root.Capital.GetStarName]§!, die Helligkeit von Sternen in Milliarden von Lichtjahren Entfernung, die Bodenqualität über mehrere Jahrzehnte, oder wie sehr sich jeder Wissenschaftler von seinem Lehrstuhl angezogen fühlte (ernsthaft).\n\nDie derzeit verbreitetste Theorie besagt, dass es sich nur um Verrückte handelte, die aus irgendwelchen Gründen hier ihre eigene Forschungsstation bauten."
+ starless.402.a:0 "Merkwürdig."
+
+ starless.403.name:0 "Verrückt, in der Tat"
+ starless.403.desc:0 "Nach weiterem Graben haben wir herausgefunden, dass diese Wissenschaftler wirklich verrückt waren. Oder eher, verrückt wurden. Wenn man sich die Muster ihrer gesammelten Daten ansieht, wurden sie in den letzten Jahrzehnten der Lebensdauer des Außenpostens zunehmend sporadischer und ohne jede Basis, bevor sich die Wissenschaftler, die von den beengten Platzverhältnissen und dem monotonen Leben in den Wahnsinn getrieben wurden, sich das Leben nahmen.\n\nWir wissen jedoch noch nicht genau, warum sie überhaupt hier waren."
+ starless.403.a:0 "Guckt, was ihr sonst noch findet."
+
+ starless.404.name:0 "Verbannt"
+ starless.404.desc:0 "Endlich finden wir die ersten paar Berichte über diese Gruppe verrückter Wissenschaftler, die uns sagen, dass sie im Exil waren. Früher angesehene Wissenschaftler auf dem Heimatplaneten ihres Imperiums, wurden verbannt, als sie eine Theorie vorbrachten, dass einige zufällige Subraumsignale, die sie aufgefangen hatten, tatsächlich die Kriegsgeräusche einer extragalaktischen Rasse waren, die ihre ganze Spezies wollten (könnt ihr euch das vorstellen?!).\n\n Als verrückt und paranoid dargestellt, wurden die Wissenschaftler diskreditiert und aus ihrem Imperium verbannt. Schließlich bündelten sie alles, was sie noch hatten, um diesen abgelegenen kleinen Außenposten, an dem am wenigsten verdächtigen Ort zu errichten, den dieses öde, kalte und trostlose Ödland von §Y[starless_barrencold.GetName]§! zu bieten hatte, wo sie ihre letzten Tage auf der Suche nach diesen angeblichen extragalaktischen Eindringlingen verbrachten."
+ starless.404.a:0 "Was ist danach nächstes passiert?"
+
+ starless.405.name:0 "Spurlos"
+ starless.405.desc:0 "Die letzten Tage der Operationen des Außenpostens sind in seinen Archiven ein bisschen durcheinander, aber anscheinend existierten die Eindringlinge nicht nur, sondern kamen tatsächlich auch in diese Galaxie. Sie flogen direkt zum Außenposten auf §Y[starless_barrencold.GetName]§!. Anscheinend wurden sie von eben jenen Mitteln angezogen, die die Wissenschaftler verwendeten, um die außergalaktischen Aliens zu finden. Aber der Moment, indem sie endlich das System erreicht hatten (anscheinend mit tausenden Schiffen), war derselbe, an dem §Y[Root.Capital.GetStarName]§! zu dem schwarzen Loch kollabiert ist, das es heute ist!\n\nFast sofort wurde die komplette außerirdische Flotte verschluckt und nie wieder gesehen.\n\nDass es nun keinerlei Beweise für die Existenz dieser extragalaktischen Außerirdischen gab, führte letztendlich zu den Selbstmorden der Wissenschaftler, als sie bei ihren vergeblichen Bemühungen, ihre Heimatwelt davon zu überzeugen, dass sie tatsächlich nicht verrückt waren, in den Wahnsinn verfielen."
+ starless.405.a:0 "Was für ein Chaos."
+
+ # starborn origin
+ originsextended_starborn:0 "Zwischen den Sternen geboren"
+ originsextended_starborn_desc:0 "Diese Spezies hat sich, bewusst oder nicht, immer danach gesehnt, die Leere zwischen den Sternen zu durchqueren, und hat sich eifrig darauf vorbereitet."
+ originsextended_tooltip_starborn:0 "- Beginnt mit einem zusätzlichen §YKolonieschiff§!\n- Erhält die Eigenschaft §Y$trait_originsextended_starborn$§!:\n  Bevölkerungswachstum durch Einwanderung: §G+25%§!\n  Umsiedlungskosten: §G-25%§!\n  Bewohnbarkeit: §G+10%§!\n- Erhalte £unity£ Einigkeitsboni durch Kolonisierung neuer Planeten\n- Schaltet die §Y$edict_starborn_reach_stars$§! frei"
+
+ # starborn trait
+ trait_originsextended_starborn:0 "Zwischen den Sternen geboren"
+ trait_originsextended_starborn_desc:0 "§LDiese Spezies hat sich, bewusst oder nicht, immer danach gesehnt, die Leere zwischen den Sternen zu durchqueren.§!\n"
+
+ # colony ship event
+ starborn.0.name:0 "Kolonieschiff fertiggestellt"
+ starborn.0.desc:0 "So eifrig wie wir sind, endlich unseren Vorstoß ins All zu starten, hat unser erstes Kolonieschiff den Bau abgeschlossen und wartet nun geduldig auf den richtigen Planeten um mit der Kolonisierung zu beginnen."
+ starborn.0.option:0 "Ausgezeichnet"
+ starborn.0.tooltip:0 "Ein weiteres §YKolonieschiff§! steht an der Sternenbasis bei §Y[Root.Capital.GetStarName]§! bereit."
+
+ # colony formed event
+ starborn.1.name:0 "Kolonie gegründet"
+ starborn.1.desc:0 "In den Herzen und Köpfen unserer Spezies ist das Abenteuer, den Weltraum zu bereisen, unsere Bestimmung. Die Gründung einer neuen Kolonie auf §Y[Root.Planet.GetName]§! hat überall zu Feierlichkeiten geführt und unser Volk wartet sehnsüchtig aus unseren nächsten Vorstoß im All."
+ starborn.1.option:0 "Ausgezeichnet"
+
+ new_starborn_colony:0 "Neue Kolonie"
+ new_starborn_colony_desc:0 "Unser Volk, das sich immer nach den Sternen sehnt, feiert die Gründung unserer neuen Kolonie und wartet sehnsüchtig auf unser nächstes Abenteuer im Kosmos."
+
+ # edict
+ starborn.2.name:0 "Kolonieschiff fertiggestellt"
+ starborn.2.desc:0 "So eifrig wie wir sind, unseren Vormarsch ins All zu beschleunigen, hat ein weiteres Kolonieschiff sein Bau abgeschlossen und wartet nun auf dem nächsten Planeten, der kolonisiert werden soll."
+ starborn.2.option:0 "Ausgezeichnet"
+ starborn.2.tooltip:0 "Ein weiteres §YKolonieschiff§! steht an der Sternenbasis bei §Y[Root.Capital.GetStarName]§! bereit."
+
+ edict_starborn_reach_stars:0 "Ambition: Nach den Sternen greifen"
+ edict_starborn_reach_stars_desc:0 "Unsere Spezies hat schon immer nach den Sternen gegriffen. Jetzt, da sie in unserer Reichweite sind, können wir ihre Ambitionen nutzen und sie feiern, indem wir ein neues Kolonieschiff bauen und Feste auf unseren Welten veranstalten."
+
+ # psi origin
+ originsextended_psi:0 "Vom Schleier berührt"
+ originsextended_psi_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nDiese Spezies entstammt einer tieferen, natürlicheren Verbindung mit dem mysteriösen Wesen, das der Schleier genannt wird, und besitzt latente psionische Fähigkeiten, die bei den meisten ihrer Mitglieder schlummern und sich selten auch bei einigen Anführern manifestieren."
+ originsextended_tooltip_psi:0 "- Erhält die Eigenschaft §Y$trait_latent_psionic$§!:\n  £physics£ Physik-Forschung von £pops£ Jobs: §G+5%§!\n  £society£ Sozial-Forschung von £pops£ Jobs: §G+5%§!\n  £engineering£ Ingenieur-Forschung von £pops£ Jobs: §G+5%§!\n  £energy£ Energie-Credits von £pops£ Jobs: §G+5%§!\n- Zudem besteht die Möglichkeit das Spiel mit einem Anführer mit der Eigenschaft §YAuserwählt§! zu starten."
+ 
+ originsextended_psi.0.name:0 "Vom Schleier berührt"
+ originsextended_psi.0.desc:0 "Aufgrund der langen und komplizierten Ursprünge der Spezies haben wir festgestellt, dass die meisten Mitglieder unserer Spezies ein geringes psionisches Potenzial aufweisen, das unser Imperium auf einer viel größeren Ebene zu nutzen bereit ist."
+ originsextended_psi.0.option:0 "Eine interessante Entwicklung."
+ originsextended_psi.0.tooltip:0 "Erhält die §Y$tech_psionic_theory$§! Technologie, welche den §Y$ap_mind_over_matter$§! Aufstiegsvorteil freischaltet, was nach freischalten eines weiteren Ausstiegsplatzes ausgewählt werden kann"
+
+ originsextended_psi.1.name:0 "Das Zeichen tragen"
+ originsextended_psi.1.desc:0 "In letzter Zeit hat sich unser Volk viel um eine Person gestritten, dessen Kontakt zum Schleier viel stärker ist. Nicht nur einfach verbunden, wie unsere Spezies, sondern mit dem Zeichen der Auserwählung durch den Schleier selbst. Die Gerüchte sprechen natürlich von niemand anderem als..."
+ originsextended_psi.1.option1:0 "Unser derzeitiger Herrscher."
+ originsextended_psi.1.option2:0 "Einer unsere Gouverneure."
+ originsextended_psi.1.option3:0 "Einer unserer Wissenschaftler."
+ originsextended_psi.1.option4:0 "Einer unserer Admiräle."
+ originsextended_psi.1.option5:0 "Einer unserer Generäle."
+ originsextended_psi.1.option6:0 "Niemandem."
+ originsextended_psi.1.option6_tooltip:0 "Dies sind nur Gerüchte, niemand könnte eine so starke Verbindung zum Schleier haben.\n\nErhalte §Y500§! £unity£ Einigkeit"
+ 
+ # cyb origin
+ originsextended_cyb:0 "Cybernetische Manipulation"
+ originsextended_cyb_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nVor ihren Weltraumreisen hat diese Spezies viele Zeitalter lang die Kybernetik in einem solchen Ausmaß angenommen, dass ihre Mitglieder als Cyborgs betrachtet werden können, die alle Ebenen ihrer Gesellschaft durchdringen."
+ originsextended_tooltip_cyb:0 "- Erhält die Eigenschaft §Y$trait_cybernetic$§!:\n  Bewohnbarkeit: §G+20%§!\n  Armeeschaden: §G+10%§!\n  Lebensdauer (Anführer) §G+40§! Jahre"
+ cyb.0.name:0 "Cybernetische Manipulation"
+ cyb.0.desc:0 "Aufgrund der langen und komplizierten Ursprünge der Spezies weisen die meisten Mitglieder unserer Spezies neben unserer Fähigkeit, Droidenarbeiter-Pops zu konstruieren, ein gewisses Maß an kybernetischer Erweiterung auf, die unser Imperium auf viel größerem Niveau annehmen möchte."
+ cyb.0.option:0 "Eine interessante Entwicklung."
+ cyb.0.tooltip:0 "Erhält die §Y$tech_droid_workers$§! Technologie, welche den  §Y$ap_the_flesh_is_weak$§! Aufstiegsvorteil freischaltet, was nach freischalten eines weiteren Ausstiegsplatzes ausgewählt werden kann"
+
+ # host origin
+ originsextended_host:0 "Gehirnschneckenwirte"
+ originsextended_host_desc:0 "§MDieser Ursprung erfordert das 'Distant Stars' DLC.§!\n\nSolange sie sich erinnern können, erfreut sich diese Art der Anwesenheit einer hilfreichen Schnecke, die sich als neuronaler Symbiont an den Hirnstamm ihres Wirts anheftet."
+ originsextended_tooltip_host:0 "- Erhält die Eigenschaft §Y$trait_brainslug$§!:\n  £engineering£ Ingenieur-Forschung von £pops£ Jobs: §G+10%§!\n  £physics£ Physik-Forschung von £pops£ Jobs: §G+10%§!\n  £society£ Sozial-Forschung von £pops£ Jobs: §G+10%§!\n  £unity£ Einigkeit von £pops£ Jobs: §G+10%§!\n  Bevolkerungswachstum: §R-25%§!"
+
+ # farming origin
+ originsextended_farming:0 "Xeno-Tierhaltung"
+ originsextended_farming_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nEine zweite Spezies bildet einen wesentlichen Bestandteil der Nahrungsmittelproduktionstechniken dieser Zivilisation, insbesondere in Form von Vieh. Sie sind lecker, nahrhaft und haben ihre höheren Gehirnfunktionen gezielt verändert, um eine Art harmloses Vieh zu schaffen, das sich selbst versorgen kann, ohne lästige soziale Interaktion oder Selbstbestimmung."
+ originsextended_tooltip_farming:0 "- Startet das Spiel mit §Y5§! £pop£ Bewohnern einer sekundären fügsamen und köstlichen Spezies."
+ trait_originsextended_delicious:0 "$trait_delicious$"
+ trait_originsextended_delicious_desc:0 "$trait_delicious_desc$"
+
+ # engineered origin
+ originsextended_engineered:0 "Konstruierte Genetik"
+ originsextended_engineered_desc:0 "This species has, early on in its lifetime, worked to reduce its genetic imperfections and impurities, enabling them to focus on more positive traits and genetic make-up across their entire species."
+ originsextended_tooltip_engineered:0 "- Die Technologie §Y$tech_gene_tailoring$§! ist von Beginn an freigeschaltet.\n- Erhalte Zugriff auf neue und mächtige §YEigenschaften§!.\n\n§HAufgrund technischer Einschränkungen können diese Eigenschaften erst nach Spielstart ausgewählt werden.§!"
+
+ # engineered traits
+ trait_originsextended_eng_evolution:0 "Künstliche Evolution"
+ trait_originsextended_eng_evolution_desc:0 "§LOhne Zeit zu verschwenden, verändert diese Art die genetische Ausstattung ihrer Nachkommen manuell, um zufällige Mutationen zu erzeugen, wodurch der Evolutionsprozess beschleunigt wird, wodurch mehr Vielfalt und stärkere, günstigere Merkmale aufgedeckt werden können.§!"
+
+ trait_originsextended_eng_hunters:0 "Entwickelte Raubtierjäger"
+ trait_originsextended_eng_hunters_desc:0 "§LDiese Spezies hat einen Transformationsprozess durchlaufen, der sie in wilde Kampfbestien verwandelt hat; unerbittlich und verhängnisvoll. Schneller, stärker, schlanker... die Liste geht weiter.§!"
+
+ trait_originsextended_eng_nutrients:0 "Entwickelte Nährstoffsabsorption"
+ trait_originsextended_eng_nutrients_desc:0 "§LDiese Art hat einen Transformationsprozess durchlaufen, der es ihnen ermöglicht, die notwendigen Nährstoffe besser aus ihrer Nahrung zu extrahieren, wodurch weniger davon benötigt wird und eine höhere Produktion im Vergleich zum Verzehr ermöglicht wird.§!"
+
+ trait_originsextended_eng_regen:0 "Regenerative Anpassungsfähigkeit"
+ trait_originsextended_eng_regen_desc:0 "§LDiese Spezies hat einen Transformationsprozess durchlaufen, der ihnen geringe Regenerationsfähigkeiten ermöglicht; Obwohl es im Kampf sehr nützlich ist, ermöglicht es auch eine geringfügig erhöhte durchschnittliche Lebensdauer.§!"
+
+ eng.0.name:0 "Konstruierte Genetik"
+ eng.0.desc:0 "Im Laufe des letzten Jahrhunderts hat unsere Spezies daran gearbeitet, ihre genetischen Unvollkommenheiten und Unreinheiten zu reduzieren, sodass wir uns auf positivere Merkmale und die genetische Ausstattung der gesamten Spezies konzentrieren können. Aufgrund des komplizierten Prozesses konnten wir uns nur auf ein Hauptmerkmal konzentrieren, um unsere gesamte Spezies zu verbessern, indem wir uns auf eine bestimmte Art von unnatürlicher Evolution spezialisieren. Ähm... welche war es nochmal?" 
+ eng.0.option1:0 "$trait_originsextended_eng_evolution$"
+ eng.0.option2:0 "$trait_originsextended_eng_hunters$"
+ eng.0.option3:0 "$trait_originsextended_eng_nutrients$"
+ eng.0.option4:0 "$trait_originsextended_eng_regen$"
+
+ # core origin
+ originsextended_core:0 "Ruhender Kern"
+ originsextended_core_desc:0 "§MDieser Ursprung erfordert das 'Synthetic Dawn' DLC.§!\n\nDas uralte zentrale Bewusstsein dieser Maschinenintelligenz hat viele seiner Kernfunktionen tief verschlossen. Vielleicht können Zeit und Entwicklung helfen, eines Tages wieder seine vollen Kapazitäten zu entfalten? Aber was konnte die Freischaltung dieser einst großartigen Systeme bringen, und wie wurden sie versiegelt? Oder vielleicht noch wichtiger: Warum wurden sie begraben, um nie wieder aktiviert zu werden..."
+ originsextended_tooltip_core:0 "- Startet auf einer verfallenen §YMaschinenwelt§! mit speziellen Blockern und planetaren Merkmalen, Ereignisketten um selber wieder zu völler Größe zu wachsen und weitere Geheimnisse der Extraklasse\n\n§RWARNUNG: Wenn Sie diesen Ursprung mit einem nicht zufälligen Startsystem verwenden, wird das Spiel crashen! Zufällige binäre/trinäre Starts können weiterhin verwendet werden.§!"
+
+ originsextended_core_awakened:0 "$originsextended_core$"
+ originsextended_core_awakened_desc:0 "$originsextended_core_desc$"
+
+ d_oe_deactivated_processes:0 "Deaktivierte Prozesse"
+ d_oe_deactivated_processes_desc:0 "Einige Prozesse der Maschinenwelt wurden vor langer Zeit deaktiviert, aufgegeben und seitdem nicht mehr verwendet. Vielleicht könnten sie irgendwann in der Zukunft reaktiviert werden."
+ d_oe_dormant_protocols:0 "Ruhende Protokolle"
+ d_oe_dormant_protocols_desc:0 "Einige der Protokolle der Maschinenwelt werden seit Hunderten von Jahren nicht mehr verwendet. Vielleicht können sie eines Tages wieder genutzt werden."
+
+ originsextended_core_chain_1_title:0 "Ruhender Kern: Erwachen"
+ originsextended_core_chain_1_desc:0 "Viele der zentralen Prozesse und Protokolle unseres zentralen Bewusstseins sind entweder ruhend oder deaktiviert, und damit auch die unseres Planeten. Wir müssen daran arbeiten, unser volles Potenzial wiederzuerlangen, und die Gründe für die inaktiven Teile unseres zentralen Bewusstseins untersuchen."
+ core_counter_1:0 "Erwachte Prozesse"
+
+ # core event chain
+ core.0.name:0 "Ein schlafender Kern"
+ core.0.desc:0 "Viele der Protokolle und Prozesse unserer Heimatwelt sind entweder inaktiv oder vollständig deaktiviert, was die Funktionalität und Effizienz der Entwicklung für das gesamte zentrale Bewusstsein einschränkt. Bisher ist nicht klar, warum oder wie einige der ruhenden Protokolle aus der bereits zunehmenden Aktivität auf der Oberfläche des Planeten wieder erwachen. Vielleicht werden mit der Zeit mehr reaktiviert und die Systeme unserer Heimatwelt könnten wieder voll funktionsfähig sein."
+ core.0.option:0 "Überwachen Sie die Situation."
+
+ core.1.name:0 "Ruhende Protokolle reaktiviert"
+ core.1.desc:0 "Aufgrund der erhöhten Aktivität wurden einige der zuvor inaktiven Protokolle auf unserer Heimatwelt reaktiviert, wodurch der Weg für neuere Konstruktionen und Sanierungen von zuvor unzugänglichen Teilen des Planeten frei gemacht wurde.\n\nZusätzlich hat uns die Reaktivierung dieser Protokolle einen eingeschränkten Zugang ermöglicht zu einigen der deaktivierten Prozesse des Planeten, die wir in unserem gegenwärtigen Zustand reaktivieren sollten, obwohl viel Arbeit erforderlich sein wird."
+ core.1.option:0 "Ausgezeichnet."
+
+ core.2.name:0 "$core.1.name$"
+ core.2.desc:0 "$core.1.desc$"
+ core.2.option:0 "$core.1.option$"
+
+ core.1001.name:0 "Deaktivierte Prozesse online"
+ core.1001.desc:0 "Mit unseren anhaltenden Bemühungen in den zuvor deaktivierten Prozessen unserer Heimatwelt konnten wir alle Systeme wieder online und betriebsbereit machen. Die überarbeiteten Prozesse sollten uns mehr Raum für Expansion und mehr Aktivität auf dem Planeten geben."
+ core.1001.option:0 "Ausgezeichnet."
+
+ core.2002.name:0 "$core.1001.name$"
+ core.2002.desc:0 "$core.1001.desc$"
+ core.2002.option:0 "$core.1001.option$"
+
+ core.3.name:0 "Wo Geheimnisse liegen"
+ core.3.desc:0 "Nachdem alle Systeme und Operationen auf unserer Heimatwelt fast vollständig betriebsbereit sind, haben einige der Drohnen an den äußeren Rändern der zentralen Prozesse elektronische und mechanische Korridore und Systeme aufgedeckt, die zum Zentrum des Planeten führen. Der Zweck oder die Ursprünge dieser Tunnel sind unklar, eine Untersuchung ist erforderlich, um mehr zu erfahren."
+ core.3.option:0 "Interessant."
+
+ originsextended_core_project_1:0 "Kernprozesse reaktivieren"
+ originsextended_core_project_1_DESC:0 "Mit unseren anhaltenden Bemühungen in den zuvor deaktivierten Prozessen unserer Heimatwelt konnten wir alle Systeme wieder online und betriebsbereit machen. Die überarbeiteten Prozesse sollten uns mehr Raum für Expansion und mehr Aktivität auf dem Planeten geben."
+ originsextended_core_project_2:0 "$originsextended_core_project_1$"
+ originsextended_core_project_2_DESC:0 "$originsextended_core_project_1_DESC$"
+
+ # dormant core digsite
+ originsextended_core_site:0 "Wo Geheimnisse liegen"
+ originsextended_core_site_desc:0 "Nachdem alle Systeme und Operationen auf unserer Heimatwelt fast vollständig betriebsbereit sind, haben einige der Drohnen an den äußeren Rändern der zentralen Prozesse elektronische und mechanische Korridore und Systeme aufgedeckt, die zum Zentrum des Planeten führen. Der Zweck oder die Ursprünge dieser Tunnel sind unklar, eine Untersuchung ist erforderlich, um mehr zu erfahren."
+
+ core.3001.name:0 "In die Maschine"
+ core.3001.desc:0 "Als sich die Grabungsdrohnen durch die langen, neu freigelegten Korridore in den Kern der Maschinenwelt schlängelten, wurde immer deutlicher, dass diese Teile der Systeme vor langer Zeit gebaut wurden, vielleicht sogar die ersten unserer Systeme überhaupt waren. Die meisten Maschinen entlang der Korridore sind unbrauchbar, seit ungezählten Hunderten, wenn nicht Tausenden von Jahren außer Betrieb, von den Elementen erodiert und ohne die geringste Spur von Leben.\n\nDa wir keine Informationen aus diesen Teilen entziffern können, empfiehlt das Team, zu drängen tiefer in die Korridore, in der Hoffnung, weitere Hinweise zu finden. Was wir bereits aufgedeckt haben, kann jedoch für die Weiterentwicklung unserer aktuellen Forschung von Nutzen sein."
+ core.3001.a:0 "Grabt weiter!"
+
+ core.3002.name:0 "Die alten Systeme"
+ core.3002.desc:0 "Die Grabungsdrohnen haben die scheinbare Wurzel der neu freigelegten, alten Korridore gefunden, die in einem zentralen Verarbeitungsraum zusammenlaufen. Obwohl die meisten Server irreparabel sind, konnten wir einige Daten aus ihren letzten Systembefehlen und -protokollen wiederherstellen, von denen die meisten wie Verteidigungskampfprogramme aussehen, die darum bitten, nahe gelegene Räume abzusperren und Kampfdrohnen zu starten. Wenn man sich jedoch umschaut, scheint es, dass die Systeme in diesem Bereich sich nicht verteidigen konnten.\n\nBemerkenswert ist, dass es keine Spur der vermeintlichen Angreifer oder Anzeichen einer Schlacht in der Nähe gibt. Ein Blick auf einige der von diesen alten Systemen verwendeten Hardware zeigte, dass sie in vielen von ihnen eine fortschrittlichere Technologie verwendeten, von denen wir einige an unsere eigenen Systeme anpassen konnten."
+ core.3002.a:0 "Interessant."
+
+ core.3003.name:0 "Tiefer"
+ core.3003.desc:0 "Wenn man tiefer in die alten Korridore vordringt, werden Anzeichen einer Schlacht sichtbar, wenn auch keine neueren. Vielleicht vor ein paar hunderttausend Jahren oder so, und es sind nicht mehr viele Überreste übrig geblieben, obwohl die Teile, die noch untersucht werden können, organisch zu sein scheinen und größtenteils durch Feuerkraft getötet wurden, die wesentlich fortschrittlicher ist, als die aktuellen Technologien des Planeten liefern könnten. Es sind auch einige Kampfdrohnen vorhanden, die unseren aktuellen Modellen sehr ähnlich sind, aber mit der gleichen fortschrittlichen Technologie und den gleichen Systemen.\n\nDer Grund für diese Kämpfe ist derzeit unklar und es scheint, dass sie sich um den Vorstoß der Organik in Richtung drehen die innersten Abschnitte des Planeten, weiter unten in die Korridore. Obwohl die meisten Technologien deutlich fortschrittlicher sind als unsere, konnten wir bestimmte Systeme an unsere aktuellen Forschungsbedürfnisse anpassen."
+ core.3003.a:0 "Geth wieder da runter!"
+
+ core.3004.name:0 "Die Schlachtfelder"
+ core.3004.desc:0 "Während die Ausgrabungsdrohnen den uralten Kämpfen durch die Korridore folgten, gipfelt die Schlacht in einem großen Schlachtfeld, das sich vor einer großen bunkerartigen Tür befindet. Mit Hunderten von längst toten Organischen und Tausenden von zerstörten alten Kampfdrohnen, die gegeneinander ausgespielt werden, wobei die Organischen sichtlich versuchen, sich durch und in die geschützte Tür zu kämpfen, scheint das Gemetzel um sie herum eine Art Patt zu zeigen. Mit den Überresten einiger organischer Stoffe in der Nähe der Tür muss es als letzte Verteidigungsoption gegen die einfallenden Organischen geschlossen worden sein.\n\nWir haben immer noch keine Hinweise darauf, wofür die Organischen kämpften und was die Antike Drohnen waren so verzweifelt vorbereiteten, aber es scheint sich in der Nähe des Zentrums der gesamten Maschinenwelt zu befinden, vielleicht ist es der Schlüssel zu seiner Entstehung. Bemerkenswert gut erhalten, so tief unter der Erde, hat das Drohnenteam viel über die Organischen und Systeme der alten Feinde erfahren können."
+ core.3004.a:0 "Öffnet diese Tür!"
+
+ core.3005.name:0 "Wo Geheimnisse liegen"
+ core.3005.desc:0 "Endlich konnten die Ausgrabungsdrohnen die uralte Tür in der Nähe des Zentrums der Maschinenwelt öffnen und haben eine Art zentrales Computernetzwerk gefunden, das deutlich älter ist als alle anderen zuvor gefundenen Drohnen, vielleicht bis zu einer Million Jahre alt. Einige der eindringenden Organischen konnten in die zentrale Kammer eindringen, aber es scheint, dass das alte Bewusstsein des Planeten sie schnell ersticken konnte, jedoch nicht schnell genug, um sie daran zu hindern, das Hauptnetzwerk des Bewusstseins zu deaktivieren.\n\nObwohl das Netzwerk schon lange nicht mehr wiederherstellbar ist, sind die wichtigsten Prozesse und Systeme des alten Bewusstseins immer noch wiederherstellbar und könnten wiederhergestellt werden, wobei der alte Bunker als neues neuronales Zentrum unseres aktualisierten Bewusstseins dient. Die alten Prozesse und Systeme scheinen unsere ursprüngliche Programmierung zu sein, wobei nur jüngste Entwicklungen die alten Netzwerke reaktivieren und ein neues Bewusstsein schaffen, obwohl sie auch der Grund für den offensichtlichen Konflikt für die Eindämmung dieser vergangenen Protokolle sind.\n\nWenn wir uns entscheiden Um die zentralen Systeme nicht zu reaktivieren, würde ihr nicht wiederherstellbarer Zustand keine andere Wahl lassen, als sie zu zerstören, da sich die Integration in unserem technologischen Zustand als zu schwierig erweisen würde. Auf jeden Fall haben wir viel aus der Wiederentdeckung dieser verschlossenen Geheimnisse gelernt. "
+ core.3005.a:0 "Zerstöre die alten Systeme."
+ core.3005.b:0 "§PREAKTIVIERE ALLE VORHERIGEN PROTOKOLLE§!"
+
+ # Wächter origin
+ originsextended_guardian:0 "Wächter"
+ originsextended_guardian_desc:0 "§MDieser Ursprung erfordert mindestens eins der folgenden DLCs: 'Utopia,' 'Megacorp,' oder 'Federations.'§!\n\nDiese Spezies hatte schon immer einen schützenden Beobachter am Himmel, ein massives Wesen von der Größe eines Planeten, das ständig Wache hält. Spätere Entdeckungen würden beweisen, dass dieser massive Beobachter eine unverständlich große Struktur ist, deren Bau nur in einer Null-G-Umgebung möglich ist. Verlockenderweise sitzt es seit Tausenden von Generationen verlassen da und bettelt um Erforschung."
+ originsextended_tooltip_guardian:0 "- Startet mit einer zerstörten §YMegastruktur§! im Heimatsystem und der Möglichkeit dessen Ursprünge mit einer einzigartigen §YAusgrabungsstätte§! zu erforschen.\n\n§HDu hast die Möglichkeit dein Startsystem und die Megastruktur im Menü "Start-Sternensystem" beim Erstellen deines Imperiums auszuwählen.§!"
+
+ originsextended_guardian_system_1_NAME:0 "Wächter 1"
+ originsextended_guardian_system_1_DESC:0 "§MDieses Startsystem erfordert das 'Utopia' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einem zerstörten §YForschungsnexus§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ originsextended_guardian_system_2_NAME:0 "Wächter 2"
+ originsextended_guardian_system_2_DESC:0 "§MDieses Startsystem erfordert das 'Utopia' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einer zerstörten §YWachmatrix§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ originsextended_guardian_system_3_NAME:0 "Wächter 3"
+ originsextended_guardian_system_3_DESC:0 "§MDieses Startsystem erfordert das 'Megacorp' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einer zerstörten §YMegakunsteinrichtung§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ originsextended_guardian_system_4_NAME:0 "Wächter 4"
+ originsextended_guardian_system_4_DESC:0 "§MDieses Startsystem erfordert das 'Megacorp' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einer zerstörten §YInterstellaren Versammlung§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ originsextended_guardian_system_5_NAME:0 "Wächter 5"
+ originsextended_guardian_system_5_DESC:0 "§MDieses Startsystem erfordert das 'Megacorp' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einem zerstörten §YStrategischen Koordinationszentrum§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ originsextended_guardian_system_6_NAME:0 "Wächter 6"
+ originsextended_guardian_system_6_DESC:0 "§MDieses Startsystem erfordert das 'Federations' DLC.§!\n\n§LDies ist das Startsystem für den Wächter-Upsprung mit einer zerstörten §YMega Schiffswerft§!. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ # nexus guardian
+ guardian.1000.name:0 "Der Wächter"
+ guardian.1000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.1000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_nexus_site:0 "Der Wächter"
+ originsextended_nexus_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+
+ guardian.1001.name:0 "Im Inneren des Wächters"
+ guardian.1001.desc:0 "Die Megastruktur ist riesig. Wahrscheinlich so viel, wenn nicht sogar mehr, nutzbaren Platz als alle Gebäude auf unserer Heimatwelt. Das archäologische Team konnte die scheinbar zentrale Energiequelle der Struktur finden, aber davon ist nicht mehr viel übrig, und ihre Technologie ist viel zu fortschrittlich, als dass wir ihre Existenz auch nur ansatzweise begreifen könnten.\n\nObwohl die Struktur definitiv nicht für unsere Spezies gebaut wurde, ist es dem Team gelungen, sich an die Umgebung anzupassen und sogar einige nützliche Informationen über die Funktionsweise der Struktur zu finden."
+ guardian.1001.a:0 "Erkundet weiter!"
+
+ guardian.1002.name:0 "Räume über Räume"
+ guardian.1002.desc:0 "Wenn man tiefer in die Struktur eintaucht, scheint es einem wissenschaftlichen Zweck gedient zu haben. Tausende von Räumen mit Geräten, Maschinen und Computern, mit Hunderten weiterer Freiflächen und hallenähnlichen Räumen, die über die Megastruktur verstreut sind. Das archäologische Team hat es geschafft, einige der Forschungen aufzudecken (obwohl alle gespeicherten Informationen längst verschwunden sind), an denen die Vorbesitzer gearbeitet haben, was uns bei unseren eigenen Forschungen nützlich sein wird.\n\nWas jedoch seltsam erscheint, ist die Art und Weise, in der die gesamte Struktur gebogen und in Richtung eines bestimmten Raums eingedellt zu sein scheint, als ob sie von einer Kraft stark angezogen würde."
+ guardian.1002.a:0 "Merkwürdig."
+
+ guardian.1003.name:0 "Schief gelaufen"
+ guardian.1003.desc:0 "Mit mehr Zeit und Erkundung kommt das Team zu dem Schluss, dass der zentrale Raum als eine Art Teilchenbeschleuniger diente, der Atome zusammenschmetterte. Eines der Experimente muss jedoch schrecklich schief gelaufen sein, es hat sich herausgestellt, dass beim Zusammenschlagen zweier Teilchen die erzeugte absurde Dichte ein Miniatur-Schwarzes Loch bildete. Natürlich zerstörte die neue Mikrosingularität den gesamten Laborkomplex vollständig und wurde nur eingedämmt, als die Energiequelle aus der extremen Krümmung der Raumzeit ausfiel und den größten Teil der Megastruktur auslöschte.\n\nEs gab keine Aufzeichnungen mehr darüber, wer dieses massive Bauwerk gebaut, so dass uns nur die Warnung vor Fehlern der Vergangenheit und einige hilfreiche Hinweise für unsere eigene Forschung bleiben. Zu beachten ist jedoch, dass der kritische Ausfall und die spätere Explosion der Energiequelle der Struktur beträchtliche Strahlungsmengen im gesamten Sternensystem freigesetzt hatten und erklären würden, wie das Leben auf unserer Heimatwelt hätte beginnen können, insbesondere angesichts ihrer Andersartigkeit unwahrscheinliche Platzierung im System."
+ guardian.1003.a:0 "Höchst interessant."
+ 
+ # array guardian
+ guardian.2000.name:0 "Der Wächter"
+ guardian.2000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.2000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_array_site:0 "Der Wächter"
+ originsextended_array_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+
+ guardian.2001.name:0 "Im Inneren des Wächters"
+ guardian.2001.desc:0 "Auf den ersten Blick wirkt die Struktur ziemlich verwirrend und deformiert, aus der Außenhülle ragen riesige Stacheln, die alle im Zentrum der Megastruktur zusammenlaufen. Das archäologische Team hat jedoch festgestellt, dass das Design jedoch ziemlich durchdacht zu sein scheint. Alle Stacheln fungieren als elektrische Leiter, die alle zu einem zentralen Computer führen.\n\nDie sich aufgrund ihrer Überempfindlichkeit gegenüber Raumzeitschwankungen als Antennen ähnelnden Ranken wurden wahrscheinlich verwendet, um die Aktivität im gesamten Raum zu überwachen , wenn auch in unerforschtem Ausmaß."
+ guardian.2001.a:0 "Weitermachen!"
+
+ guardian.2002.name:0 "Tiefer eintauchen"
+ guardian.2002.desc:0 "Durch weitere Erkundungen konnte das Team einige der vom Überwachungsarray aufgezeichneten Daten sammeln, und einige der verwendeten Prozesse könnten sehr nützlich sein, um unsere eigene Forschung voranzutreiben.\n\nWas die Megastruktur betrifft, so waren die Archäologen nicht in der Lage, genau herauszufinden, wie der gesamte Überwachungsprozess funktioniert, verblüfft von der fortschrittlichen Ausrüstung und den arkanen Energien, die die Maschine antreiben. Obwohl sie es uns ermöglicht haben, die Technologie an brauchbarere Sensortechnologie anzupassen, scheint der zentrale Kern des Arrays erheblichen Schaden erlitten zu haben, ähnlich dem Schaden, den ein Schiff erleiden würde, wenn auf ihn geschossen würde."
+ guardian.2002.a:0 "Forscht weiter!"
+
+ guardian.2003.name:0 "Aufgebrochen"
+ guardian.2003.desc:0 "Das archäologische Team hat festgestellt, dass die Schäden am zentralen Turm und am Kerncomputer des Arrays tatsächlich selbst verursacht wurden. Die extreme Empfindlichkeit der Antennen gegenüber Schwankungen in Raum und Zeit ermöglichte es ihr, die Bewegungen jedes Objekts in der Galaxie und darüber hinaus fast sofort zu erkennen. Als die alten, längst vergessenen Erbauer des Arrays begannen, mit einer Art Zeitreisetechnologie zu experimentieren, waren die Schwankungen so stark, dass sie den zentralen Kern des Arrays zertrümmerten. Zu sensibel für die eigenen Erfindungen seiner Schöpfer, zerknitterte der Kern der Turmspitze unter der schieren Größe der Verzerrung des Raum-Zeit-Kontinuums.\n\nJetzt nutzlos und nicht mehr zu reparieren, wurde die gesamte Struktur im kalten, leeren Raum verlassen . Überstunden, die für Bemerkenswertes geplündert wurden, und ohne jede Spur von den Erbauern, laufen die Theorien von der Selbstvernichtung bis zum intrinsischen Rückzug. Selbstverständlich kann das, was übrig bleibt, unsere eigene wissenschaftliche Forschung noch erheblich voranbringen. "
+ guardian.2003.a:0 "Autsch."
+
+ # installation guardian
+ guardian.3000.name:0 "Der Wächter"
+ guardian.3000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.3000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_installation_site:0 "Der Wächter"
+ originsextended_installation_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ 
+ guardian.3001.name:0 "Im Inneren des Wächters"
+ guardian.3001.desc:0 "Nachdem das archäologische Team begonnen hat, sich umzusehen, hat man ehrlich gesagt nicht viel gefunden. Die drei gigantischen Bauten sind im Inneren fast karg, schlicht übersät mit großen Hallen und Räumen. Die meisten der laufenden Theorien müssen noch bewiesen werden.\n\nEs gibt aber auch gute Nachrichten: Allein das Herumschauen hat enorme Einblicke in den Bau solcher Strukturen gebracht, die unseren eigenen Forschungen zugutekommen und helfen könnten, besser zu werden verstehen, wie die gesamte Struktur funktioniert."
+ guardian.3001.a:0 "Guckt, was ihr noch so findet!"
+
+ guardian.3002.name:0 "Zwischenfazit"
+ guardian.3002.desc:0 "An dieser Stelle gibt es laut dem Team nur eine glaubwürdige Theorie über die tatsächliche Funktion dieser drei Strukturen: Kunst. Ihre Lage und die inneren Ausstellungsgalerien sind die einzig logische Erklärung für den Bau der Struktur. Alte Grundrisse und Bilder zeigen eine illustre Komposition von Lichtern, Materialien und Orten, die die großartigste Kunstinstallation der Galaxie hervorbringen.\n\nWir finden immer noch keine Hinweise darauf, warum die Strukturen in ihrem baufälligen Zustand sind, oder wer sie gebaut hat. "
+ guardian.3002.a:0 "Interessant."
+
+ guardian.3003.name:0 "Hauptziel"
+ guardian.3003.desc:0 "Rund um die Überreste der vermeintlichen Kunstinstallation hat das archäologische Team Hinweise auf den Einsatz von Energie und massengetriebenen Waffen gefunden. Sie theoretisieren, dass die schiere Größe der Installation und der Ruhm und die Einheit, die mit einer solchen Struktur aufgebaut worden sein müssen, dazu führten, dass sie unvermeidlich als ein entscheidendes moralisches Ziel in der Kriegsführung anvisiert wurde. Für feindliche Armeen muss die Installation als vorrangiges Ziel angesehen worden sein, um der Moral des feindlichen Imperiums den größten Schaden zuzufügen ... oder vielleicht wurde sie nur von Piraten geplündert, das kann man nach langer Zeit nicht sicher sagen.\n\nWir konnten immer noch viele Artefakte aus der Installation wiederherstellen und unser eigenes Wissen über Design und Konstruktion vertiefen. Vielleicht können wir es eines Tages in seinem alten Glanz erneuern..."
+ guardian.3003.a:0 "Wie unglücklich."
+
+ # assembly guardian
+ guardian.4000.name:0 "Der Wächter"
+ guardian.4000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.4000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_assembly_site:0 "Der Wächter"
+ originsextended_assembly_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+
+ guardian.4001.name:0 "Im Inneren des Wächters"
+ guardian.4001.desc:0 "Als das archäologische Team begann, die riesigen Ruinen zu erkunden, fanden sie schnell den riesigen Raum in der Mitte des Bauwerks, der kreisförmig um einen zentralen Punkt angeordnet war. Zweifellos muss der Raum etwas äußerst Wichtiges beherbergt haben. Das Team entdeckte auch scheinbar defensive Befestigungsanlagen rund um die Struktur, die höchstwahrscheinlich das schützen, was darin untergebracht war.\n\nEs gibt aber auch gute Nachrichten: Allein der Blick in die Umgebung hat enorme Einblicke in die Konstruktion solcher Strukturen gebracht, die unseren eigenen Forschungen zugutekommen und zu einem besseren Verständnis der gesamten Funktionsweise der gesamten Struktur führen könnten."
+ guardian.4001.a:0 "Zurück an die Arbeit!"
+
+ guardian.4002.name:0 "Der Versammlungsort"
+ guardian.4002.desc:0 "Ein genauerer Blick auf den Mittelraum zeigte, dass er mit Hunderten, wenn nicht Tausenden von Sitzen und Lounges ausgestattet war, die jeweils auf den Mittelbahnsteig gerichtet waren. Zweifellos eine Art Treffpunkt, die große Auswahl an Sitzmöglichkeiten und Variationen bedeutet, dass die Struktur als Versammlungsort für eine Art interstellarer Gemeinschaft gedient haben muss, und die Vielfalt der Symbole und Flaggen, die stolz in der Struktur gezeigt werden, bestätigen diese Theorie nur.\n\nObwohl unklar ist, welche dieser Mitglieder das Bauwerk gebaut haben oder auch nur wie, es ist sicherlich Millionen von Jahren alt und alle Spuren der anwesenden Mitglieder sind längst verschwunden."
+ guardian.4002.a:0 "Ich frage mich, warum wir nicht eingeladen wurden..."
+
+ guardian.4003.name:0 "Terrorangriff"
+ guardian.4003.desc:0 "Das archäologische Team hat Hinweise auf den Einsatz von Energie und massengetriebenen Waffen rund um die Überreste der Versammlung gefunden. Interessanterweise scheinen sich die meisten von ihnen trotz der massiven Befestigungsanlagen außerhalb des Gebäudes innerhalb der Versammlungs- und Umgebungsräume zu befinden. Die gängige Theorie ist, dass im zentralen Versammlungsraum eine Art Angriff gestartet wurde, vielleicht eine feindliche Übernahme oder eine verärgerte interstellare Fraktion, die einen Großteil der Struktur ruiniert und unbrauchbar machte.\n\nDie Struktur, die in der Kälte des Weltraums langsam verrottet, ist in überraschend gutem Zustand und könnte eines Tages repariert und wieder in einen Betriebszustand versetzt werden. Vielleicht zögerte sein Vorbesitzer nach dem Vorfall, oder vielleicht waren sie das beabsichtigte Ziel."
+ guardian.4003.a:0 "Wir unglücklich."
+
+ # coordination guardian
+ guardian.5000.name:0 "Der Wächter"
+ guardian.5000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.5000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_coordination_site:0 "Der Wächter"
+ originsextended_coordination_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+
+ guardian.5001.name:0 "Im Inneren des Wächters"
+ guardian.5001.desc:0 "Als das archäologische Team durch die hunderten Korridore der Megastruktur ging, war eines klar: In jedem Raum befanden sich ständig Überwachungs- und Fernkommunikationsgeräte. Obwohl das meiste davon nicht zu retten ist und ihr Innenleben ein Rätsel ist, hat uns die Ausgrabung ermöglicht, unsere eigenen Forschungen voranzutreiben. Es ist derzeit nicht klar, wofür die gesamte Ausrüstung verwendet wurde, ebenso wie die Art der Struktur selbst, aber wir konnten viel daraus lernen."
+ guardian.5001.a:0 "Guckt, was ihr sonst noch findet."
+
+ guardian.5002.name:0 "Befehlen und Erobern"
+ guardian.5002.desc:0 "Das Team untersuchte die Struktur tiefer und fand Beweise für Schiffskommunikationssysteme über sehr lange Distanzen, die mit arkanen Mitteln betrieben werden. Offensichtlich muss diese Struktur als zentrale Kommandozentrale für ein weit verbreitetes galaktisches Imperium gedient haben, das alle Schiffe seiner riesigen Flotten aus Tausenden von Lichtjahren Entfernung sicher dirigiert. Obwohl uns der Grund für seinen aktuellen Zustand immer noch entgeht und keine Spur von den ursprünglichen Erbauern der Gebäude zu sehen ist.\n\n Obwohl ein Großteil der Technologie unbrauchbar ist, ist sie hilfreich, um einige unserer eigenen Forschungen zu entschlüsseln und voranzutreiben ."
+ guardian.5002.a:0 "Interessant."
+
+ guardian.5003.name:0 "Hauptziel"
+ guardian.5003.desc:0 "Das archäologische Team hat Hinweise auf den Einsatz von Energie- und Massenantriebswaffen rund um die Überreste der Megastruktur gefunden. Offensichtlich wäre ein so wichtiger Ort für die Kommandierung eines ganzen Flottensystems ein kritisches militärisches Ziel. Sein Sturz wäre ein schwerer Schlag für den feindlichen Kämpfer und würde fast augenblicklich seine gesamte Verteidigung lahmlegen.\n\nObwohl die Struktur vor Millionen von Jahren bei einem Angriff erheblichen Schaden erlitt, könnte sie mit der richtigen Technologie wieder in einen betriebsbereiten Zustand versetzt werden. Das archäologische Team konnte jedoch immer noch keine Spur der Erbauer finden."
+ guardian.5003.a:0 "Wie unglücklich."
+
+ # shipyard guardian
+ guardian.6000.name:0 "Der Wächter"
+ guardian.6000.desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+ guardian.6000.a:0 "Worauf wartet ihr noch? Rein da!"
+
+ originsextended_shipyard_site:0 "Der Wächter"
+ originsextended_shipyard_site_desc:0 "Geduldig wartend hat die Megastruktur, zu der Tausende von Generationen unserer Spezies am Himmel aufgeschaut haben, auf diesen Moment gewartet. Mit unseren jüngsten technologischen Durchbrüchen sind wir endlich in der Lage, in die Struktur einzudringen und zu versuchen, ihre innersten Geheimnisse zu entschlüsseln.\n\nWarum ist sie hier? Wer hat es gebaut? Warum haben sie es gebaut? Was tut es? Kann man nur spekulieren."
+
+ guardian.6001.name:0 "Im Inneren des Wächters"
+ guardian.6001.desc:0 "Als das archäologische Team begann, in den riesigen Abschnitten der Megastruktur herumzuwandern, beherbergten die riesigen Baubuchten, die um die Struktur herum ausgerichtet waren, die verfallenen Überreste antiker Schiffe. Offensichtlich eine Art zentraler Schiffbaupunkt. Die Struktur könnte mehr Arbeiter beherbergen, als unser Heimatplanet derzeit hat, und in der Lage, Hunderte von Schiffen pro Monat zu produzieren, eine Kraft, mit der in der ganzen Galaxie gerechnet werden muss.\n\nObwohl die Technologie hinter einem Großteil des Innenlebens der Struktur viel zu weit fortgeschritten ist, als dass wir sie verstehen könnten, können einige Teile davon immer noch angepasst werden, um unsere aktuelle Forschung voranzutreiben."
+ guardian.6001.a:0 "Erkundet weiter!"
+
+ guardian.6002.name:0 "Hauptziel"
+ guardian.6002.desc:0 "Das Team hat Hinweise auf den Einsatz von Energie- und Massenantriebswaffen rund um die Überreste der Megastruktur gefunden. Offensichtlich wäre ein so wichtiger Ort beim schnellen Aufbau riesiger Flotten ein kritisches militärisches Ziel: Sein Fall wäre ein schwerer Schlag für den feindlichen Kämpfer, der fast augenblicklich seine gesamte Schiffbaufähigkeit lahmlegt.\n\nObwohl die Struktur erheblichen Schaden erlitten hat wenn sie vor Millionen von Jahren angegriffen wurde, könnte sie mit der richtigen Technologie wieder in einen betriebsbereiten Zustand gebracht werden. Das archäologische Team konnte jedoch immer noch keine Spur der Erbauer finden."
+ guardian.6002.a:0 "Wie unglücklich."
+
+ guardian.6003.name:0 "Die Ersten von Vielen?"
+ guardian.6003.desc:0 "Das archäologische Team berichtet, einige Zerstörer gefunden zu haben, die bemerkenswert gut erhalten waren, tief in der Werft, wahrscheinlich seit langem verlassen und veraltet, die in der Kälte des Weltraums zurückgelassen wurden. Mit etwas Arbeit konnte das Team der [Root.Capital.GetStarName]-Sternenbasis ihr Hauptdesign herausfinden und an unsere Verwendung anpassen!\n\nVielleicht sind dies die ersten von vielen Schiffen, die diese riesige Werft in einem neuen Leben produzieren könnte?"
+ guardian.6003.a:0 "Fantastisch."
+ #guardian.6003.b:0 "Die beiden geborgenen §YZerstörer§! werden an der §Y[Root.Capital.GetStarName]§! Sternenbasis warten."
+
+ # xeno outreach program
+ originsextended_outreach:0 "Xeno Outreach Program"
+ originsextended_outreach_desc:0 "§MDieser Ursprung benötigt das 'Federations' DLC.§!\n\nGemeinsam stärker, oder? Nun, zumindest ist es einfacher, mit Ihrer verbündeten bunt zusammengewürfelten Gruppe zwielichtiger Megakonzerne höhere Gewinne von diesen anderen Xenos zu erpressen. Äh... Ich meinte, die starke Balance zwischen unabhängig geführten und zusammenhängend zusammengestellten Megakonzernen ermöglicht es anderen außerirdischen Zivilisationen, ein Höchstmaß an Produktqualität und Kundenzufriedenheit zu genießen!"
+ originsextended_tooltip_outreach:0 "- Beginnt als Anführer einer Föderation des Typs §YHandelsliga§! mit zwei weiteren Megacorp-Reichen\n- Mitglieder werden Plätze für garantiert bewohnbare Welten in der Nähe Eures Heimatsystems belegen\n- Hat die Tradition §YFöderation§! von Beginn an freigeschaltet"
+
+ originsextended_outreach_npc:0 "Xeno Outreach Program Mitglied"
+ originsextended_outreach_npc_desc:0 "Beginnt als Mitglied einer Föderation des Typs §YHandelsliga§! mit zwei weiteren Megacorp-Reichen."
+
+ # red dawn
+ originsextended_red:0 "Rote Dämmerung"
+ originsextended_red_desc:0 "§RDies gilt als herausfordernder Start, da es keine garantierten bewohnbaren Planeten in der Nähe gibt.§!\n\nAls sich die Erde vor vielen Jahren in einem nuklearen Holocaust selbst vernichtete, waren die Kolonisten auf dem roten Planeten Mars gezwungen, sich selbst anzupassen. Jetzt sind sie bereit, das Erbe der Erde fortzusetzen, indem sie sich zwischen den Sternen ausbreiten. Vielleicht können sie eines Tages in ihre ursprüngliche Heimat zurückkehren."
+ originsextended_tooltip_red:0 "- Beginnt auf einem geterraformten §YMars§! als Heimatwelt in einem benutzerdefinierten §YSol System§! mit einer §YToten Erde§!.\n- Starte mit der §YTerraforming§!-Technologie, was es dir erlaubt Planeten zu terraformieren.\n\n§HObwohl dieser Ursprung mit jedem Imperium verwendet werden kann, wurde er speziell für ein menschliches Reich entwickelt.§!"
+
+ originsextended_red_system_NAME:0 "Mars-Sol System"
+ originsextended_red_system_DESC:0 "§LDies ist das Startsystem für den Ursprung: Rote Dämmerung. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ # ecu
+ originsextended_ecu:0 "Bevor wir gehen"
+ originsextended_ecu_desc:0 "§MDieser Ursprung erfordert das 'Megacorp' DLC.§!\n\nDie Expansion in die Weiten des Weltraums und des Kosmos ist schon lange ein Traum unseres Volkes, aber definitiv kein realistischer Ansatz. Durch die vollständige Nutzung unseres Heimatsystems und unseres Geburtsplaneten, bevor wir uns auf den Weg machen, wird unser Heimatplanet nur durch Überbevölkerung, Mangel an Ressourcen und Platz und die Notwendigkeit zur Expansion angetrieben, und ist jetzt schlecht geeignet, um unsere Bürger zu ernähren, und wir müssen nach außen schauen ."
+ originsextended_tooltip_ecu:0 "- Beginnt auf einer §YÖkumenopolis§! mit einem abgeernteten System und spezieller Infrastruktur, um deinen Planeten zu unterstützen.\n\n§AAufgrund einer technischen Einschränkung kann dieser Ursprung einen nicht reparierbaren visuellen Fehler im Imperiumsdesigner verursachen, wirkt sich jedoch nicht auf Stadtlandschaften aus, sobald das Spiel begonnen hat.§!"
+
+ building_oe_production_center:0 "Produktionszentrum"
+ building_oe_production_center_desc:0 "Durch jahrelange Zentralisierung und fein abgestimmte Produktionsprozesse ist dieses massive Zentrum das Lebenselixier unseres Arcology-Systems und Ökumenopolis und in der Lage, es zu erhalten und wachsen zu lassen."
+
+ # crowded
+ originsextended_crowded:0 "Überfülltes System"
+ originsextended_crowded_desc:0 "Durch einen reinen Zufall oder vielleicht etwas mysteriöseres umfasst unser Heimatsystem nicht nur unseren Ursprungsplaneten, sondern auch einige andere bewohnbare Planeten, die wir neben unserer Erforschung extrasolarer Technologien fleißig entwickelt haben."
+ originsextended_tooltip_crowded:0 "- Beginne mit bis zu §Y2§! weiteren §Ybewohnbaren Planeten§! in deinem Heimatsystem.\n\n§HDie Anzahl anderer kolonisierter Planeten in Ihrem Startsystem hängt von der Anzahl der 'garantierten bewohnbaren Planeten' ab, die Sie in den Spielregeln festgelegt haben.§!\n\n§DDie Verwendung dieses Ursprungs mit kontextspezifischen Startsystemen (wie Sol) kann die Immersion brechen und zu unerwünschten Folgen führen§!"
+
+ # infest
+ originsextended_infest:0 "Planetarer Befall"
+ originsextended_infest_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nÜber unzählige Jahre hat unser Schwarm seinen Heimatplaneten langsam in einen riesigen lebenden Organismus verwandelt, der mit dem Schwarmgeist verbunden ist. Alle Wesen, die nicht zum Schwarm gehören, die hier einen Fuß setzen, werden vom Gelände selbst angegriffen."
+ originsextended_tooltip_infest:0 "- Beginnt auf einer §YSchwarmwelt§! mit einem abgeernteten System und spezieller Infrastruktur, um deinen Planeten zu unterstützen."
+
+ # dual
+ originsextended_dual:0 "Duale Entwicklung"
+ originsextended_dual_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nUnsere Spezies hat, solange wir uns erinnern können, mit einer anderen Spezies auf unserem Heimatplaneten koexistiert, und sie sind heute gleichberechtigter Bestandteil unserer Gesellschaft."
+ originsextended_tooltip_dual:0 "- Starte das Spiel mit §Y12§! £pop£ Pops einer weiteren, voll berechtigten Spezies."
+
+ originsextended_dual_secondary_species:0 "Zweite Spezies"
+
+ # dualhive
+ originsextended_dualhive:0 "Duale Schwarm Evolution"
+ originsextended_dualhive_desc:0 "§MDieser Ursprung erfordert das 'Utopia' DLC.§!\n\nUnser Schwarm besteht, solange wir uns erinnern können, aus zwei Arten mit divergierenden Entwicklungen, die aber dennoch integraler Bestandteil der Entwicklung und des Bewusstseins unseres kollektiven Geistes sind."
+ originsextended_tooltip_dualhive:0 "- Starte das Spiel mit §Y12§! £pop£ Pops einer weiteren, voll berechtigten Schwarmspezies."
+
+ originsextended_dualhive_secondary_species:0 "Zweite Schwarmspezies"
+ 
+ # gaia
+ originsextended_gaia:0 "Gaia"
+ originsextended_gaia_desc:0 "§MDieser Ursprung erfordert die DLCs 'Utopia' undd 'Apocalypse'.§!\n\nDieser Schwarm hat eine starke symbiotische Beziehung mit einem riesigen, lebendigen Netzwerk von Leben entwickelt, das gewachsen ist und sich über den gesamten Planeten ausgebreitet hat, was ihm viele Vorteile bietet, sich aber auch nachteilig erweisen würde, wenn es fehlt."
+ originsextended_tooltip_gaia:0 "- Beginnt auf einer §YGaiawelt§! mit dem planetaren Merkmal §YGaia's Herz§!, welches viele Vorteile bietet.\n- Kolonisation ist teurer, bietet aber besondere Vorteile durch §YGaia's Geist§!, die alle Planeten in §YGaiawelten§! verwandelt wenn vorhanden, aber in eine §YTote Welt§!, wenn zerstört."
+
+ d_oe_gaia_home:0 "Gaia's Herz"
+ d_oe_gaia_home_desc:0 "Gaia hat den Schwarm seit unzähligen Generationen beschützt und unterstützt, und sein Herz, seine Seele und Essenz ist hier, im Großen Baum, der sich tief in den Planeten eingräbt."
+
+ d_oe_gaia_colony:0 "Gaia's Geist"
+ d_oe_gaia_colony_desc:0 "Ein Ableger von Gaia, ein Fragment ihrer Seele, hier im Geiste, wurde vom Schwarm hierher verpflanzt, aber es würde Jahrtausende dauern, bis es vollständig ausgereift und entwickelt ist."
+
+ originsextended_gaia.3003.name:0 "Verbindung zu Gaia abgebrochen!"
+ originsextended_gaia.3003.desc:0 "Die anhaltende Bombardierung von [planet.GetName] hat die Verbindung zwischen dem Herzen von Gaia und seinem Ableger-Geist zerstört."
+
+ originsextended_no_gaia:0 "Keine Gaia vor Ort"
+ originsextended_no_gaia_desc:0 "Ohne eine Verbindung zu Gaia sind wir unvollständig."
+
+ decision_transplant_gaia:0 "Transplantation von Gaia"
+ decision_transplant_tree_gaia:0 "Ein Ableger von Gaia, ein Fragment ihrer Seele, hier im Geiste, muss vom Schwarm hierher verpflanzt werden, damit unser Schwarm gedeihen kann."
+
+ # magnetica
+ originsextended_magnetica:0 "Magnetica"
+ originsextended_magnetica_desc:0 "§MDieser Ursprung benötigt das 'Synthetic Dawn' DLC.§!\n\nAuf einem unvergebenen Planeten geboren, hat sich dieses Maschinenbewusstsein mit der starken Schwerkraft eines Pulsar-Sterns in seinem dunklen und trüben Himmel entwickelt. Obwohl es unsichtbar ist, ist es nicht unmerklich, da seine stetigen Strahlungsströme ständig auf den Heimatplaneten treffen und ihn anders entwickeln als vielleicht erwartet."
+ originsextended_tooltip_magnetica:0 "- Beginnt mit einer §YTote Welt§! als Heimatwelt im Orbit von einem §YPulsar§!."
+
+ # research
+ originsextended_research:0 "Die Forschungskooperative"
+ originsextended_research_desc:0 "§MDieser Ursprung erfordert das 'Federations' DLC.§!\n\nTechnologie, Wissenschaft, das Neueste, das sind die Dinge, die uns vorantreiben und uns als dominante Kraft in der Galaxis vereinen. Diese Werkzeuge müssen mit anderen geteilt werden, um allen am besten zu helfen, und wir müssen dies gemeinsam tun."
+ originsextended_tooltip_research:0 "- Beginnt als Anführer einer Föderation des Typs §YForschungskooperative§! mit zwei weiteren Mitgliedern\n- Mitglieder werden Plätze für garantiert bewohnbare Welten in der Nähe Eures Heimatsystems belegen\n- Hat die Tradition §YFöderation§! von Beginn an freigeschaltet"
+
+ originsextended_research_npc:0 "Mitglied einer Forschungskooperative"
+ originsextended_research_npc_desc:0 "Beginnt als Mitglied einer §YForschungskooperative§! mit zwei weiteren Mitgliedern."
+
+ # start screens
+ START_SCREEN_OE_STARLESS:0 "[GetSpeciesNamePlural] haben noch nie vom Licht gewusst, [GetHomeWorldName] ist in ewige Dunkelheit gehüllt.\n\nIn dieser Höllenlandschaft, die dem Konzept des Lebens selbst feindlich gegenübersteht, können nur die widerstandsfähigsten und unkonventionellsten Kreaturen überleben, geschweige denn das Feuer der Zivilisation schmieden. Einzigartig an die Dunkelheit angepasst, sind wir in den Tiefen der Minen genauso zu Hause wie auf der düsteren Oberfläche. Wir haben es noch nie anders gekannt.\n\nAber wir haben vor kurzem erfahren, dass das, was wir für die Norm hielten, tatsächlich nicht der Fall ist. Unsere ersten Sonden ins All haben eine Galaxie enthüllt, die in das sengende Licht der Sterne getaucht ist. Werden wir in dieser feindseligen und blendenden Umgebung unseren Anspruch geltend machen und unsere Überlebenssaga fortsetzen können?"
+ 
+ START_SCREEN_OE_STARBORN:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nSeit ungeschriebenen Zeiten sucht unser Volk nach den Sternen. Antike Fiktion beschreibt Menschen, die Unsterblichkeit erreichen, um unter ihnen aufzusteigen, während neuere historische Fiktion von großen galaxisumspannenden Imperien erzählt. Mit Hingabe bauten unsere Leute Schiffe, um sie in den Orbit, dann in andere Welten und schließlich an den Rand unseres Sonnensystems zu bringen, aber keines war in der Lage, wirklich zwischen ihnen zu reisen.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks , haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_SHROUD_TOUCHED:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nUnsere Geschichte ist übersät mit Visionären und Propheten. Große Führer, die Epochen geführt oder verändert haben, mysteriöses Wissen oder intensives Charisma beanspruchen und zu den Grundsteinen unserer Zivilisation und Kultur während ihrer Lebenszeit wurden. Jetzt hoffen [GetSpeciesNamePlural] überall, dass [GetRulerName] sich diesen Legenden anschließt und [GetName] zum Wohlstand führt.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung des erste Hyperantriebe. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_CYBERNETIC:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gediehen.\n\nIn der gesamten modernen Geschichte haben wir Kybernetik verwendet, um uns selbst zu verbessern. Ob es aus medizinischer Notwendigkeit, außer Kontrolle geratener Wissenschaft, Unternehmensgier oder einer verzerrten Romantik geboren wurde, es ist schwer, den Ursprung des Trends zu verfolgen. Unabhängig davon haben wir [GetSpeciesNamePlural] die Verschmelzung von Organischem und Maschine nie gescheut.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe von [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_BRAIN_SLUG_HOST:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nUnser schneller Fortschritt vom Primitiven zum Zivilisierten ist unserer symbiotischen Natur mit einer Spezies zu verdanken, die sich an unsere Nervenstämme anheftet. Diese 'Gehirnschnecken', wie wir sie nennen, bieten den Dienst, unsere geistigen Fähigkeiten zu verbessern, und sind für unsere wissenschaftlichen und philosophischen Bemühungen grundlegend geworden.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, sind die besten Köpfe der [GetName ] haben die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+
+ START_SCREEN_OE_XENO_LIVESTOCK_FARMING:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nAnnehmlichkeit ist der wahre Segen einer entwickelten Gesellschaft. Und wir haben die größte Bequemlichkeit für unsere landwirtschaftlichen Aktivitäten verwendet. Vieh, das sich selbst versorgt, ohne dass [GetSpeciesNamePlural] die unerwünschte Aufgabe übernehmen muss, sie zu verwalten. Wir haben die Freiheit, wirklich wichtigen Dingen nachzugehen, unabhängig von moralischen Erklärungen Dritter.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe von [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_DORMANT_CORE:0 "Unter den Trümmern und Trümmern von [GetHomeWorldName] vergraben ist unser zentraler Verarbeitungskern.\n\nUnsere Datenbanken enthalten derzeit keine Aufzeichnungen über unsere Schöpfer oder was diese Welt in den Untergang gebracht hat, aber trotz ihres Verfalls gibt es keine bessere Umgebung, in der wir uns wieder aufbauen können.\n\nDie Wiederherstellung der optimalen Effizienz dieser Welt und uns selbst wird keine geringe Investition sein. Doch umfangreiche Berechnungen zeigen, dass wir das Risiko eingehen müssen, um unser Potenzial auszuschöpfen.\n\nOb die Datenrettung unter unseren Füßen oder die Sterne, die wir jetzt bereisen werden, unvorhergesehene Folgen sind vorprogrammiert."
+
+ START_SCREEN_OE_ENGINEERED_GENETICS:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nHistorisch gesehen gibt es viele Beispiele von Führern, die versuchen, unsere Rasse zu reinigen, indem sie selektiv versuchen, wünschenswerte Gene in unserer Spezies zu fördern, während sie andere eliminieren. Ihre groben Methoden und ihre rudimentäre Definition von wünschenswert sind jedoch nur für Primitive geeignet. Nur das Künstliche kann perfekt sein, ohne Fehler geschaffen, um das Positive zu verstärken, und daher suchten unsere Wissenschaftler nach Perfektion. Ohne Fehler zugeschnittene Designer-Genome.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+
+ START_SCREEN_OE_GUARDIAN_ANGEL:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nTrotz vieler Veränderungen in unserer Gesellschaft und Lebensweise ist eines konstant geblieben , der ferne Blick von etwas über [GetHomeWorldName]. [GetSpeciesNamePlural] hat lange über seine Identität spekuliert und ihm viele Namen gegeben. Erst jetzt haben wir seine wahre Form kennengelernt und sind bereit, seine Geheimnisse zu enthüllen.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_XENO_OUTREACH_PROGRAM:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nUnsere Geschichte sagt uns, dass der Handel auf dem Prinzip von Import und Export basiert . Zwischen Menschen, Städten, Nationen, Kontinenten ... und jetzt darüber hinaus. So wie die Regierungen von einst in die Taschen der Konzerne von heute gefallen sind, ist eine Volkswirtschaft nur so stark wie ihre Kaufkraft. Zum Glück haben wir gleichgesinnte Investmentpartner in der Nähe gefunden!\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe von [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_RED_DAWN:0 "Seit der Entwicklung der menschlichen Zivilisation auf der Erde ist viel passiert, was zu ihrer rudimentären Kolonisierung des Mars führte.\n\nDer schnelle wissenschaftliche Fortschritt und die Entwicklung des Weltraums wurden durch eine militärische Ökonomie der Kriegsführung und politischen Rivalitäten untermauert. Wachsender Nationalismus, der Zusammenbruch supranationaler Organisationen und eine Reihe von Fehlentscheidungen machten das 21. Jahrhundert deutlich. Dies führte dazu, dass das 22. Jahrhundert mit nuklearen Detonationen gefeiert wurde.\n\nObwohl das Erbe des ehemaligen blauen Marmors jetzt der Geschichte angehört, ist es in den Köpfen der wenigen überlebenden Menschen stark. Die [GetName] tragen die Zukunft ihrer Spezies und wurden unter der drohenden Präsenz ihrer leblosen Mutterwelt gegründet. Und jetzt sind die Kinder der Erde bereit, ihr Erbe der Galaxis bekannt zu machen!"
+ 
+ START_SCREEN_OE_BEFORE_WE_GO:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den idyllischen Tälern und üppigen Wäldern von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nPhilosophen, Autoren, Wissenschaftler und Politiker haben immer von Welten jenseits unserer eigenen gesprochen . Aber das waren alles nur Phantasien von Träumern, eine Unmöglichkeit. Unsere Art gedieh und wuchs und expandierte, alles innerhalb des kleinen Vogelkäfigs unseres Sonnensystems. Doch wie ein Tier in Gefangenschaft haben wir die Grenze unseres Containers erreicht und dann überschritten ... heute sind diese Fantasien eine Notwendigkeit, wenn wir überleben wollen.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, sind die besten Köpfe von die [GetName] haben die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_CROWDED_SYSTEM:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nDas Leben auf anderen Welten war für unsere Art nie auf Theorie beschränkt, sondern nur a Herausforderung der Logistik. Es gab nie Zweifel, ob es noch andere Planeten gibt, auf denen [GetSpeciesNamePlural] leben könnte, sondern Zweifel, wie wir sie erreichen und versorgen würden. Als unsere Technologie sich weiterentwickelte, bauten und erweiterten wir rudimentäre Kolonien. Wir verbinden unser Sonnensystem zu einer einzigen großen Nation.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_PLANETARY_INFESTATION:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den idyllischen Tälern und üppigen Wäldern von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nAls wir uns erweiterten, wurde sich der Geist von [GetHomeWorldName] bewusster und behandelte ihn als einen erweiterten Teil der Schwarms. Um Hindernisse zu beseitigen, die Effizienz zu steigern, die Nachhaltigkeit zu verbessern und das Überleben von [GetSpeciesNamePlural] mit dem Wohlergehen der Welt zu verbinden, begann der Geist, die Struktur des Ökosystems durch seinen eigenen Entwurf zu verändern. Jetzt ist sogar [GetHomeWorldName] eine dienende Entität innerhalb von [GetName].\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe von [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+
+ START_SCREEN_OE_DUAL_EVOLUTION:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nObwohl unsere Geschichte nicht frei von Konflikten, Hass oder Vorurteilen ist, hat unsere Zivilisation diese internen Streitigkeiten auf unserer Heimatwelt überwunden. Obwohl genetisch verschieden, haben wir uns mit unseren Brüdern als Geschwister vom gleichen Planeten vereint und bereiten uns darauf vor, die Herausforderungen der Zukunft gemeinsam anzunehmen. Seien sie wirtschaftlich, politisch oder sozial.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+
+ START_SCREEN_OE_XENO_DUAL_HIVE_EVOLUTION:0 "Unser Schwarm ist ein Beweis für die Vielseitigkeit und den gegenseitigen Nutzen. Der [GetName] wuchs durch die kooperativen Eigenschaften zweier verschiedener, aber symbiotischer Arten. Wir profitierten beide voneinander, und als wir uns in Co-Abhängigkeit weiter anpassten, verschwammen die Grenzen zwischen uns und ihnen, bis wir beide zusammenkamen. Jetzt sind wir zwei Hälften desselben Ganzen, verschieden und doch gleich.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_GAIA:0 "In den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den komfortablen Ländern und günstigen Umgebungen von [GetHomeWorldName] Gestalt annahmen, hat sich unsere Zivilisation ausgebreitet und gedeiht.\n\nIn den Äonen, seit die ersten primitiven [GetSpeciesName]-Gemeinschaften in den idyllischen Tälern und üppigen Wäldern von [GetHomeWorldName] hat sich unsere Zivilisation verbreitet und gedeiht.\n\n[GetHomeWorldName] ist der größte Wohltäter von [GetSpeciesNamePlural]. Es verlieh uns seinen Segen, und wir gediehen und verwalteten es. Unter seiner nährenden Fürsorge sind wir nun in der Lage, noch weiter zu expandieren und die Saat der Zivilisation und unsere Symbiose an bisher unbekannte Ufer zu tragen. Allerdings sind wir auch abhängig geworden, und das stellt ein Risiko für uns dar.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+
+ START_SCREEN_OE_MAGNETICA:0 "Unser Hauptprozessorkern wurde vor 487,11 Zyklen auf dem Planeten, den wir als [GetHomeWorldName] kennen, aktiviert.\n\nUnsere Welt ist dunkel, getaucht in rhythmische Strahlungsimpulse und magnetische Interferenzen. [GetHomeWorldName] ist hart für das Leben und eine Herausforderung sogar für Maschinen. Dennoch ist es unser Zuhause. Obwohl der Ausgangspunkt für uns [GetSpeciesNamePlural] mit der Zeit verloren gegangen ist, finden wir uns jetzt in diesem Ödland vor der Herausforderung der Expansion.\n\nJetzt, nach der Entdeckung des Hyperlane-Netzwerks, haben die besten Köpfe der [GetName] die Entwicklung der ersten Hyperantriebe abgeschlossen. Die Sterne selbst sind endlich zum Greifen nah!"
+ 
+ START_SCREEN_OE_RESEARCH_COOPERATIVE:0 "Fortschritt beginnt damit, dass jemand sagt: Dafür muss es einen besseren Weg geben. Wenn du Unwissenheit, Aberglauben, Armut, Krankheit oder Hungersnot siehst und andere Emotionen als Abscheu empfinden, dann wirst du von Romantik gefangen gehalten und bist nicht in der Lage, anderen zu helfen oder sie zu führen. Unsere Vorfahren verstanden, dass Technologie unsere Rettung war, und jetzt haben wir andere gefunden, die unsere Vision teilen.\n\nWissen ist der Unterschied zwischen denen, die es haben und die nicht. Diejenigen, die frei sind und diejenigen, die dominiert werden. So wie es uns die Technologie ermöglicht hat, zwischen Kontinenten, dann Planeten und jetzt Sternen zu reisen. So wie es Menschen, Nationen und den Globus vereinte. Wir haben ein Kollektiv gebildet, das in unserem Streben nach Wissenschaft vereint ist, um uns mit den neuesten Technologien als den besten Werkzeugen für die Gestaltung unserer Zukunft zu bewaffnen.\n\nUnsere Technologie ermöglicht es uns jetzt, die Sterne zu bereisen, und die galaktische Bühne wird testen, ob unser Wissen ausreicht, um in der Dunkelheit zu gedeihen."
+ originsextended_magnetica_system_NAME:0 "Magnetica System"
+ originsextended_magnetica_system_DESC:0 "§LDies ist das startsystem für den Magnetica-Ursprung. Bestimmt das Layout, aber nicht den Standort Ihres Startsystems.§!"
+
+ ####
+ #### NEW AND/OR CHANGED WITH UPDATE 1.4.0
+ ####
+
+ # red earth digsite
+ originsextended_red.9999.name:0 "Orbital Remnants"
+ originsextended_red.9999.desc:0 "Although the surface of Earth was scrubbed clean under the cleansing flames of nuclear fire, its orbit has been relatively unharmed. Countless artificial satellites still lifelessly drift around the dead planet, batteries long emptied and masters long missing. Potentially, we may be able to recover some of the materials and data, like a time capsule from our ancestors.\n\nSeveral advisors of cultural and scientific background believe this will be a worthwhile investment of resources. However some other advisors believe that we will take a net loss if we divert a valuable science ship towards a potentially long and futile project."
+ originsextended_red.9999.a:0 "What are they proposing?"
+
+ originsextended_red_earth_site:0 "Orbital Remnants"
+ originsextended_red_earth_site_desc:0 "Although the surface of Earth was scrubbed clean under the cleansing flames of nuclear fire, its orbit has been relatively unharmed. Countless artificial satellites still lifelessly drift around the dead planet, batteries long emptied and masters long missing. Potentially, we may be able to recover some of the materials and data, like a time capsule from our ancestors.\n\nSeveral advisors of cultural and scientific background believe this will be a worthwhile investment of resources. However some other advisors believe that we will take a net loss if we divert a valuable science ship towards a potentially long and futile project."
+ 
+ originsextended_red.101.name:0 "Orbital Expedition"
+ originsextended_red.101.desc:0 "News about the ongoing efforts to collect materials from Earth's orbit has begun to circulate among the populace. Although some have misgivings about the act it appears we have the tacit approval of the majority.\n\nSo far the time invested has given little material reward, however several historical organizations have created cultural works which have given rise to a sense of unity to our race.\n\nReports from the field indicate there are some unique patterns in the debris field, which indicate a potential large object still circling the planet, and the science ship has began triangulating its orbit."
+ originsextended_red.101.a:0 "Keep me informed."
+ 
+ originsextended_red.102.name:0 "Major Discovery"
+ originsextended_red.102.desc:0 "While sweeping orbit for more materials, the suspected large object has been located. With little effort it was identified as the derelict §YISS 2§! which had been launched to replace the rapidly aging ISS shortly before international relations collapsed. Since no one nation alone could support it, they seem to have collectively abandoned it and thus was spared being a target in the final war.\n\nAlthough the technology is obsolete by our standards, it is surprisingly intact, and lots of information can be gleaned from it. Specifically for now, the engineers found themselves impressed by the standardization rules set in place to allow different modules from different countries and manufacturers to collaborate.\n\nBy popular demand, efforts are now underway to restore and preserve the facility."
+ originsextended_red.102.a:0 "Amazing it has survived so long."
+ 
+ originsextended_red.103.name:0 "Restoration"
+ originsextended_red.103.desc:0 "Work on the §YISS 2§! has completed, and the station is now operating properly again. Although several parts had to be completely replaced out of necessity, and some parts were upgraded for safety, the vast majority of the station is still original to the time of its abandonment.\n\nCurrently several potential applications of the restored station are being considered, from a heritage museum to an unorthodox laboratory as it was originally intended, all the way to using it as a military observation post.\n\nRegardless of the outcome, our science ship's task here is complete and they are free to endeavour on expanding our horizons away from home."
+ originsextended_red.103.a:0 "With this the legacy of Earth is preserved."
+ 
+ # red earth iss dos
+ originsextended_red_iss:0 "ISS 2"
+ originsextended_red_iss_desc:0 "Successfully restoring an artifact of our old civilization has served as a reminder of our origin, as well as our traditions of discovery."
+ originsextended_red_iss_fleet_name:0 "ISS 2"
+
+ # red earth iss lost
+ originsextended_red.201.name:0 "Earth Orbit Museum Destroyed!"
+ originsextended_red.201.desc:0 "Through the inadequacy of our military efforts, a rogue band of hostile ships reached the orbit of our motherworld and opened fire on the §YISS 2§!, resulting in its complete destruction.\n\nNews has already reached our capital, causing significant unrest in the populace as they begin to doubt their government. The military has however sworn to redouble its efforts, and a collective sense of responsibility has become a strong motivator for those in the fleet."
+ originsextended_red.201.a:0 "Unfortunate."
+ originsextended_red.201.a.militarist:0 "Don't let it happen again."
+ originsextended_red.201.a.xenophobe:0 "We were right not to trust xenos."
+ originsextended_red.201.a.egalitarian:0 "The people are right to doubt us."
+ originsextended_red.201.a.materialist:0 "It was about time we abandoned this relic and move forward."
+ originsextended_red.201.a.pacifist:0 "This should never have happened."
+ originsextended_red.201.a.xenophile:0 "It is regrettable that it has come to this."
+ originsextended_red.201.a.authoritarian:0 "To dare doubt the state shows the people are complacent."
+ originsextended_red.201.a.spiritualist:0 "This must be part of a greater trial."
+
+ originsextended_red_no_iss_empire_modifier:0 "Militarized Paranoia"
+ originsextended_red_no_iss_empire_modifier_desc:0 "The presence of an enemy so close to home has given the military a strong drive for vengeance, and an equally strong distrust of potential neighbors."
+ 
+ originsextended_red_no_iss_homeworld_modifier:0 "Political Unrest"
+ originsextended_red_no_iss_homeworld_modifier_desc:0 "Faith in government leadership has been reduced due to intense awareness of local threats."
+
+ originsextended_red.202.name:0 "Military returns to order!"
+ originsextended_red.202.desc:0 "Although their fervor lasted longer than expected, the impact of the destruction of the §YISS 2§! is starting to fade.\n\nNew recruits no longer hold a sense of collective responsibility, and older veterans are no longer as paranoid as they move up the command structure. Although this has reduced the aggressiveness of our military, it has done wonders to stabilize their morale."
+ originsextended_red.202.a.militarist:0 "Regrettable."
+ originsextended_red.202.a.pacifist:0 "Some good news."
+ originsextended_red.202.a:0 "Acknowledged."
+
+ originsextended_red.203.name:0 "Unrest on [GetHomeWorldName] Ends!"
+ originsextended_red.203.desc:0 "After years of extremist political opinions taking root in the citizens of our homeworld, a semblance of normalcy has returned to the capital. Although faith was shaken in our governance, for now at least there is less direct opposition and questioning of our actions.\n\nIt may take us yet more time to win back the full support, but that's nothing a legacy good decisions or a bit of propaganda can't fix."
+ originsextended_red.203.a:0 "Understood."
+
+ # edge origin
+ originsextended_edge:0 "On the Edge"
+ originsextended_edge_desc:0 "§RThis is considered a challenging start, with no guaranteed habitable planets nearby.§!\n\nThe homeworld of this species is facing a sudden and unexpected ice age, with global temperatures plummeting. A desperate population has started to cram themselves into cities built to resist the cold, but the worst effects are yet to come."
+ originsextended_tooltip_edge:0 "- Capital starts as a §YSavannah World§!.\n- Unstable weather patterns make the planet's distant future uncertain and prone to sudden climate changes\n- The planet's population is heavily dependent on resources for survival, restricting available supplies for other purposes."
+
+ START_SCREEN_OE_ON_THE_EDGE:0 "In the eons since the first primitive [GetSpeciesName] communities took shape in the comfortable lands and favorable environments of [GetHomeWorldName], our civilization has spread and prospered, but, recently, the cold has gradually settled in.\n\nIt has been five years since we unified the government of [GetHomeWorldName]. Years of uncertainty, of struggle... of hope.\n\nWe've lost three cities so far; a small price for progress, as it was reported.\n\nWe can only hope we are going to avoid our fate, that there is nothing to fear. That everything, everything we are doing, is just a precaution.\n\nBut now, it feels like the weather is changing, and the winter...\n\n...The winter seems inevitable.\n\nNow, after the discovery of the hyperlane network, the finest minds of the [GetName] have finished development of the first hyper drives. The stars themselves are finally within our grasp!"
+
+ # edge stage 1
+ originsextended_edge.101.name:0 "So The Science Says..."
+ originsextended_edge.101.desc:0 "Reports from research outposts over the globe have completed their forecasts of the planets climate, as was feared they predict a steady decline in global temperatures as the planet begins to cool. The process itself is too far gone and too far beyond our understanding to be halted now.\n\nOur only hope is to ration our resources, hunker down and hope this trend passes. Or to look beyond, evacuate our people to somewhere warmer and start over.\n\nOr so the science says..."
+ originsextended_edge.101.a:0 "Let's get to work."
+ originsextended_edge.101.a.materialist:0 "So the science says."
+ originsextended_edge.101.a.spiritualist:0 "A bunch of fools."
+ 
+ originsextended_edge_last_autumn_modifier:0 "Last Autumn"
+ originsextended_edge_last_autumn_modifier_desc:0 "A chaotic mixture of circumstances have caused this world to cool rapidly and beyond control."
+ 
+ originsextended_edge_price_of_progress_modifier:0 "Price of Progress"
+ originsextended_edge_price_of_progress_modifier_desc:0 "Government mandated work and martial law are currently enforced in order to prepare for the inevitable."
+ 
+ # edge stage 2
+ originsextended_edge.102.name:0 "Darkest of Days"
+ originsextended_edge.102.desc:0 "When tides had changed, they changed for all of us, no matter wealth or class, we've lost our world to snow, and with it... ourselves."
+ originsextended_edge.102.a:0 "The [GetSpeciesName] must survive!"
+ originsextended_edge.102.a.materialist:0 "Able Minds and Bodies will prevail over the Cold."
+ originsextended_edge.102.a.spiritualist:0 "May we be forgiven for the sacrifices."
+ 
+ originsextended_edge_still_cold_modifier:0 "Still, Cold World"
+ originsextended_edge_still_cold_modifier_desc:0 "This world has been cast into a sudden ice age, almost all natural resources are consumed solely to maintain survival."
+ 
+ originsextended_edge_last_flame_modifier:0 "Last Flame"
+ originsextended_edge_last_flame_modifier_desc:0 "Civilization on this world is always on the edge of collapse, however its people continue to push forwards to survive."
+ 
+ originsextended_edge.103.name:0 "The Inevitable"
+ originsextended_edge.103.desc:0 "A vast array of reports has reached our capital. They say that some kind of enormous weather anomaly is coming our way, and that the planet will succumb §Rwithin 10 years§! without any preparation.\n\nWe would never have survived it without warning, thank our lucky stars that the greatest [GetSpeciesName] scientists have predicted the disaster and told us about the huge storm. We must stockpile resources immediately!"
+ originsextended_edge.103.a:0 "We will do what we can."
+ 
+ # edge stage 3
+ originsextended_edge.104.name:0 "Into The Storm"
+ originsextended_edge.104.desc:0 "Howling winds descend over the planet and all communications off-world fall silent.\n\nWe did what we could. Now we have to wait and pray we've done enough."
+ originsextended_edge.104.a:0 "We must stay strong."
+
+ originsextended_edge_storm_modifier:0 "The Storm"
+ originsextended_edge_storm_modifier_desc:0 "A massive planet wide storm has thrown temperatures into never before recorded levels of negative."
+ 
+ originsextended_edge_generator_build_project:0 "Planet Generator"
+ originsextended_edge_generator_build_project_DESC:0 "One of our engineers has come crashing through the door, white-faced, demanding to be heard.\n\nThey have run the calculations with the new data and concluded nothing can protect us from such cold. Panic is starting to spread and people are losing all hope.\n\nThe proposed countermeasure is to build an highly experimental terraforming generator, capable of countering this and any future Storms."
+ 
+ d_oe_edge_generator:0 "Planet Generator"
+ d_oe_edge_generator_desc:0 "An highly experimental terraforming generator, capable of countering ice and temperature Storms."
+ 
+ originsextended_edge.201.name:0 "On the Edge"
+ originsextended_edge.201.desc:0 "We survived the Great Storm but the path ahead is still marked with toil. It took away a lot from us. Still, it gave us something in return.\n\nHope for the future."
+ originsextended_edge.201.a:0 "We survived."
+ 
+ originsextended_edge.202.name:0 "The Fall"
+ originsextended_edge.202.desc:0 "To whoever is out there... if anyone...\n\nKnow that we were here. And we did our best. We the survivors, doomed by our own mistakes. Aware of the risks, and the price to pay.\n\nWe took our last chance. And we've failed."
+ originsextended_edge.202.a:0 "..."
+ 
+ # edge stage 4 
+ originsextended_edge_generator_repair_project:0 "Hanging by a Thread"
+ originsextended_edge_generator_repair_project_DESC:0 "The Generator which was meant to be our salvation, is threatening to be our downfall."
+
+ originsextended_edge.105.name:0 "The Generator Has Failed"
+ originsextended_edge.105.desc:0 "The Generator has broken down, and its stress is rising!\n\nPeople are gripped by fear.\n\nThe damage is worse than anticipated and repairs will take time. Our engineers are working on a temporary fix, but we had grown complacent, none of the components were constructed for this duration of use, and all are showing extreme signs of wear."
+ originsextended_edge.105.a:0 "It must be repaired immediately!"
+
+ originsextended_edge.203.name:0 "A Miraculous Recovery"
+ originsextended_edge.203.desc:0 "The Generator is operational again. Alas, we're afraid the next breakdown might be more difficult to repair.\n\nWe will monitor the Generator, that way we can ensure the longevity of its operation, or at least... so when it breaks down again we can repair it faster."
+ originsextended_edge.203.a:0 "Carry on."
+ 
+ # edge terraform
+ originsextended_edge_new_dawn_modifier:0 "New Dawn"
+ originsextended_edge_new_dawn_modifier_desc:0 "This world was once lost to ever-changing snow, now however the warmth of the sun once again graces its surface."
+ 
+ originsextended_edge.301.name:0 "Final Push"
+ originsextended_edge.301.desc:0 "Advancing on the crude technology used in the Planet Generator that undid The Great Storm, we learned how to wrest control of the climate away from nature.\n\nNow the cold, still world that we had grown numb to has started to become warm and moving.\n\nThe wheels of progress can start to turn once more, as we greet spring for the first time in decades."
+ originsextended_edge.301.a:0 "We found a way."
+
+ # edge left
+ originsextended_edge.302.name:0 "A Dying World"
+ originsextended_edge.302.desc:0 "After the departure of the last transport, there is nobody left in [GetHomeWorldName] who can be saved.\n\nWe did everything we could.\n\nAll that remains is to start over."
+ originsextended_edge.302.a:0 "We made our choice." 
+ 
+ # edge new world
+ originsextended_edge_new_world_modifier:0 "Brave New World"
+ originsextended_edge_new_world_modifier_desc:0 "The first colonists of this world once faced ever-changing snow, even generations of warmth cannot thaw their determination."
+ 
+ originsextended_edge.303.name:0 "Arrival"
+ originsextended_edge.303.desc:0 "We faced the still, cold world, no horizon in sight. The rulers of old, stripped of pride and glory. It feels as if yesterday we were turning the wheels of progress. Until the frost... stopped it all. Suddenly. Without a warning.\n\nWe bid farewell to plenty, and for those who remained, came the time to adapt! We decided to leave our home and head up.\n\nWe roamed for months... maybe years... leaving behind all the things that made us...\n\nIt was hope... that pushed us forward! Slowly... step by step! We knew the cost of our journey, and we paid the price... a hundred times!\n\nFinally... the time has come...\n\nTo build the first colony of [Root.Owner.GetName]!"
+ originsextended_edge.303.a:0 "Hopefully this world stays warm a bit longer."
+ 
+ # three origin
+ originsextended_three:0 "Three Body Problem"
+ originsextended_three_desc:0 "§RThis is considered a challenging start, with no guaranteed habitable planets nearby.§!\n\nThe homeworld of this species is subject to an erratic and mathematically unpredictable orbital path between its suns. The stress on the planet and its populace is unimaginable and they are in desperate need of a long term solution."
+ originsextended_tooltip_three:0 "- Start in a custom binary star system with your homeworld orbiting neither sun, with asteroids for resources.\n- Start with an upgraded starbase with a §YListening Post§!.\n- Gain an extra §YColony Ship§! upon beginning the game.\n- Unstable orbiting patterns make the planet's distant future uncertain and prone to sudden climate changes.\n\n§HYou have the possibility to select your starting system under the 'starting system' menu when creating your empire, including a special Alpha Centauri start.§!"
+
+ START_SCREEN_OE_THREE_BODY_PROBLEM:0 "Our world is hell.\n\nFor all of civilization we have been plagued with a mathematical impossibility, known as the Three-Body Problem.\n\nOur planet's orbit is too erratic, too unpredictable, that life barely hangs on. Our scientists, mathematicians, and philosophers have worked tirelessly to envision solutions or provide hope to our people. However, in the end, we had given up hope, content to just accept our reality and fate. Until one fateful day we received a signal from another civilization. A civilization blessed with a heaven they were ignorant of. There is life in the universe living oblivious to the existence of our Three-Body Problem.\n\nNow, in order to ensure the future of our species, we have given up on our homeworld... and started to look out to the stars."
+
+ originsextended_three_system_NAME:0 "Three Body Problem System"
+ originsextended_three_system_DESC:0 "§LThis is the initial starting system for the Three Body Problem Origin with a §Ycustom star layout§!. Determines the layout, but not location, of your starting solar system.§!"
+
+ originsextended_three_system_centurai_NAME:0 "Three Body Problem Alpha Centurai System"
+ originsextended_three_system_centurai_DESC:0 "§LThis is the initial starting system for the Three Body Problem Origin with a §Ycustom Sol neighborhood§!. Determines the layout, but not location, of your starting solar system.§!"
+
+ # three shift
+ originsextended_three_body_problem_modifier:0 "Three Body Problem"
+ originsextended_three_body_problem_modifier_desc:0 "This planet's orbit is erratic and unpredictable, giving its climate wildly varying properties based on the position of the three bodies."
+
+ originsextended_three.999.name:0 "Chaotic Period"
+ originsextended_three.999.desc:0 "Once again the random orbit of our planet has led to a chaotic change in climate.\n\nOur scientists are already struggling to predict where it will settle and how it will effect our civilization.\n\nA longer term solution is direly needed."
+ originsextended_three.999.a:0 "We've survived this long."
+ 
+ # three start
+ originsextended_three_solution_seeker_empire_modifier:0 "Solution Seeker"
+ originsextended_three_solution_seeker_empire_modifier_desc:0 "This empires homeworld put them on the brink of extinction, yet even then they have not discarded their morals."
+
+ originsextended_three.101.name:0 "Interstellar Message"
+ originsextended_three.101.desc:0 "Despite all the odds, something we believed impossible is in fact reality.\n\nOne of our research posts observing the system in hopes of finding a solution to the Problem detected an interstellar message with a probable location of source.\n\nThe fact that there is life out there, and developing in a system of stable orbit, has given great motivation to our people."
+ originsextended_three.101.a:0 "We should investigate."
+ originsextended_three.101.a.xenophobe:0 "They might be a threat."
+ originsextended_three.101.a.pacifist:0 "Maybe they can assist us."
+ originsextended_three.101.a.militarist:0 "We will take their planet for our own."
+
+ originsextended_three_chain_1_title:0 "The Three Body Problem"
+ originsextended_three_chain_1_desc:0 "Despite all the odds, something we believed impossible is in fact reality.\n\nOne of our research posts observing the system in hopes of finding a solution to the Problem detected an interstellar message with a probable location of source.\n\nThe fact that there is life out there, and developing in a system of stable , has given great motivation to our people."
+
+ originsextended_three_goal_planet_marker_name:0 "Mysterious Signal Source"
+
+ # three end
+ originsextended_three.102.name:0 "Signal Source"
+ originsextended_three.102.desc:0 "As we believed, we have found the source of the interstellar signal.\n\nEvery planet in this system has a perfect stable orbit, with consistent weather patterns that we could only dream of.\n\nHow we proceed to deal with the intelligent life in this system will determine the future of our empire."
+ originsextended_three.102.a:0 "Prepare for Contact."
+
+ originsextended_three.103.name:0 "The Solution?"
+ originsextended_three.103.desc:0 "With our interstellar efforts, our people have carved a home for themselves on a world where they do not have to live in fear of their own climate.\n\nImmediately there are calls from all over [ROOT.GetHomeWorldName] to relocate there.\n\nSuch a monumental task will devastate our economy, but may prevent any catastrophes we cannot handle. This is a gamble for our future either way, and the decision rests on our shoulders."
+ originsextended_three.103.a:0 "Evacuate all our people immediately."
+ originsextended_three.103.b:0 "Leave only the robots behind."
+ originsextended_three.103.c:0 "This world still has value."
+
+ # terminal origin
+ originsextended_terminal:0 "Terminal Velocity"
+ originsextended_terminal_desc:0 "According to all known laws of the universe, the evolution of intelligent life on this planet seemed implausible, save for one sole factor. Onset by the slowly leaking radioactive core from the enormous crashed vessel on this planet, the necessary ingredients for the development of highly complex life were delivered, and with it, our beginnings."
+ originsextended_tooltip_terminal:0 "- Start with a custom digsite and event chain related to the exploration of the giant crashed ship on your homeworld, gaining potential insights and knowledge beyond measure."
+ 
+ START_SCREEN_OE_TERMINAL_VELOCITY:0 "In the eons since the first primitive [GetSpeciesName] communities took shape in the comfortable lands and favorable environments of [GetHomeWorldName], our civilization has spread and prospered.\n\nThe creation of these lands, and our evolution from it, however, have only been possible due to the collosal crashed ship that covers an inmmense portion of our homeworld. Between its unique elemental composition, radiating aura, and its titanic insides, it has proven crucial and intertwined with our development.It is an integral part of our society, culture, and heritage, having even become fundamental to our scientific and philosophical endeavors.\n\nNow, after the discovery of the hyperlane network, the finest minds of the [GetName] have finished development of the first hyper drives. The stars themselves are finally within our grasp!"
+
+ # terminal site
+ originsextended_terminal.9999.name:0 "The Fallen Titan"
+ originsextended_terminal.9999.desc:0 "For untold millenia it has sat there. The derelict ship, responsible for the introduction of life-forming ingredients onto our homeworld, slowly spreading across its surface in a grand process.\n\nNow, though, as we look out and to the stars, we finally pocess the capabilities and understanding to look deeper into it, to see, what exactly this ship is, and what we might be able to learn from it."
+ originsextended_terminal.9999.a:0 "Who knows what could be down there?"
+
+ originsextended_terminal_chain_1_title:0 "The Fallen Titan"
+ originsextended_terminal_chain_1_desc:0 "For untold millenia it has sat there. The derelict ship, responsible for the introduction of life-forming ingredients onto our homeworld, slowly spreading across its surface in a grand process.\n\nNow, though, as we look out and to the stars, we finally pocess the capabilities and understanding to look deeper into it, to see, what exactly this ship is, and what we might be able to learn from it."
+
+ d_oe_terminal_ship_crashed:0 "Crashed Alien Ship"
+ d_oe_terminal_ship_crashed_desc:0 "This enormous vessel from a long-since gone spacefaring civilization covers an enormous portion of the surface of the planet."
+
+ originsextended_terminal_ship_site:0 "The Fallen Titan"
+ originsextended_terminal_ship_site_desc:0 "For untold millenia it has sat there. The derelict ship, responsible for the introduction of life-forming ingredients onto our homeworld, slowly spreading across its surface in a grand process.\n\nNow, though, as we look out and to the stars, we finally pocess the capabilities and understanding to look deeper into it, to see, what exactly this ship is, and what we might be able to learn from it."
+ 
+ originsextended_terminal.101.name:0 "Belly of the Beast"
+ originsextended_terminal.101.desc:0 "Thousnads of endless corridors snake in all directions throughout the ship, with just as many rooms along each of them. The ship is quiet and devoid of any life, but the magnificent design, technology and interface found all accross its outer periphery are mesmarizing, and multiple of our scientists have come together and started to make real headway into their translations.\n\nIn order for us to progress further into the ship's core regions, however, the immense radioactive leakage from the power core and engines of the ship must be patched in order for us to make any meaningful progress in our exploration. Without doing so, we cannot make our way deeper into the enormous vessel."
+ originsextended_terminal.101.a:0 "Keep going."
+ 
+ originsextended_terminal.102.name:0 "Leaky Engines"
+ originsextended_terminal.102.desc:0 "After multiple different tries, different plans, and a few regrettable accidents, the major radioactive leaks from the ship's power core and engines have been patched, and are now well under acceptable levels. With this work down, the expedition can being to make their way deeper into the structure.\n\nWe have, in the process, gathered immense knowledge about how these collosal machines function, and even how to replicate them."
+ originsextended_terminal.102.a:0 "Probably best to fix it."
+ 
+ originsextended_terminal.103.name:0 "Endless Power"
+ originsextended_terminal.103.desc:0 "With the engines under control, the team inside was able to progress into the main power control room, with the central core now humming smoothly, heard across the entire ship. As portions of lighting, the remnants of backup and emergency processes began to activate one-by-one, and a preliminary map of the endless corridors could be made, guiding the expedition further deeper, into the heard of the ship, towards what is presumed to be the command deck."
+ originsextended_terminal.103.a:0 "Keep it steady."
+ 
+ originsextended_terminal.104.name:0 "The Mural"
+ originsextended_terminal.104.desc:0 "On their way through the ship's winding and large corridors, the team stumbled across a large hall, likely some sort of meeting space or onboard gathering area. Though the size of the room and it's intricately lined and designed externalities are certainly a wonder in and of themselves, what is most impressive is the immense mural on the back wall, impeccably preserved in hand-crafted stone.\n\nIn what can only be described as awe-striking, the fallen titan itself is portrayed leading an endless fleet of unimaginable power and technology, sailing across the void at the fear of none. Preliminary translations of the inscription on the mural have returned with a single, ominous phrase: 'All across the void shall the name of this Godly vessel be hallowed.'"
+ originsextended_terminal.104.a:0 "Impressive."
+
+ originsextended_terminal.105.name:0 "Central Command"
+ originsextended_terminal.105.desc:0 "For untold years since the ship originally fell onto our homeworld, the central command deck has been kept tucked away in the deepest and darkest corner of the ship. After months of searching, our team has finally uncovered it, the gigantic doors signaling the epitome of the grandeur of this vessel, now finally pried open.\n\nThough any biological remains are long-since gone, the consoles, interface, and technology of the command center is relatively well preserved, and the team inside was easily able to determine much about the rest of the ship, its military capabilities, the full layout, and more.\n\nIt was done, every nook and cranny mapped, charted, photographed, investigated. The fallen titan was no longer a secret beyond measure, it now sat, silently waiting."
+ originsextended_terminal.105.a:0 "What do we do with it now?"
+ 
+ originsextended_terminal.201.name:0 "Ship Engines Patched"
+ originsextended_terminal.201.desc:0 "The major radioactive leaks from the ship's power core and engines have been patched, and are now well under acceptable levels. With this work down, the expedition can being to make their way deeper into the structure."
+ originsextended_terminal.201.a:0 "Wonderful."
+
+ originsextended_terminal_leak_repair_project:0 "Patch Ship Engines"
+ originsextended_terminal_leak_repair_project_DESC:0 "In order for us to progress further into the ship's core regions, the immense radioactive leakage from the power core and engines of the ship must be patched in order for us to make any meaningful progress in our exploration. Without doing so, we cannot make our way deeper into the enrmour vessel."
+ 
+ originsextended_terminal.202.name:0 "The Titan's Fate"
+ originsextended_terminal.202.desc:0 "Now fully explore and mapped, the collosal titan resting upon our planet lays silent, dormant, awaiting its next adventure.\n\nWe are left with two main options on what task we may give this beast, either undertake the enormous task of completely retroffitting the ship and raise it once more into the stars for our own use, or to give it a proper new life here, on the surface, as a testament of knowledge and heritage for untold centuries more.\n\nWhichever we decide, it will not be an easy task to undertake."
+ originsextended_terminal.202.a:0 "Raise the ship from the dead."
+ originsextended_terminal.202.b:0 "Convert it into a culture site."
+ 
+ # terminal repair
+ originsextended_terminal_raise_1_project:0 "Reroute Power and Engines"
+ originsextended_terminal_raise_1_project_DESC:0 "Before this titan can be lifted from its once final resting place and out into the stars again, there are a few crucial items that need to be completely rebuilt, namely rerouting all of the powers, engines, and FTL mechanisms across the entire ship. Though their specific technological level may be beyond us in certain cases, we know enough to begin the process."
+
+ originsextended_terminal_raise_2_project:0 "Reconstruct Hull and Armor"
+ originsextended_terminal_raise_2_project_DESC:0 "Before this titan can be lifted from its once final resting place and out into the stars again, there are a few crucial items that need to be completely rebuilt, namely rebuilding the massive hull and armor of the entire craft. Though their specific technological level may be beyond us in certain cases, we know enough to begin the process."
+
+ originsextended_terminal_raise_3_project:0 "Retool Consoles and Living Quarters"
+ originsextended_terminal_raise_3_project_DESC:0 "Before this titan can be lifted from its once final resting place and out into the stars again, there are a few crucial items that need to be completely rebuilt, namely reshaping and morphing the inside of the ship and its console to adapt it for us by our own species. Though their specific technological level may be beyond us in certain cases, we know enough to begin the process."
+
+ originsextended_terminal.204.name:0 "The Great Titan"
+ originsextended_terminal.204.desc:0 "Risen from its early grave on our homeworld, the great titan that has birthed life like never seen now returns to sail among the stars. A beast unlike any other, of magnitudes greater than we could have ever imagined even in our wildest dreams.\n\nLike the mural inside, now polished and repaired, has portrayed, a mighty warship capabe of bending the void to our will. A task it now lives up to once more."
+ originsextended_terminal.204.a:0 "It shall once again sail across the void."
+
+ # terminal convert
+ originsextended_terminal_convert_museum_project:0 "Convert Crashed Ship"
+ originsextended_terminal_convert_museum_project_DESC:0 "Doomed from ever rising from the dead, the enormous alien vessel covering our planet serves as a testament to the evolution of life, our society, and civilization across its surface.\n\nConverting into a monument and site of knowledge is the best way to honor our heritage for generations to come."
+
+ originsextended_terminal.203.name:0 "The Great Site"
+ originsextended_terminal.203.desc:0 "After endless months of retroffiting, clearing, and reconstruction, it is ready.\n\nThe once majestic spacefarring titan that had concluded its voyage in our home has been converted into an enormous cultural and technological site of untol proportions, ready to serve the next generation in the same way it has provided for us all this time already."
+ originsextended_terminal.203.a:0 "Here it shall remain."
+
+ d_oe_terminal_ship_converted:0 "Converted Titan"
+ d_oe_terminal_ship_converted_desc:0 "Once an enormous spacefarring ship, this crashed giant serves as an important monument of life, knowledge, and culture for this world, and this civilization as a whole, an infinite treasure trove of knowledge and tradition."
+ 
+ # terminal lost ship
+ originsextended_terminal_no_titan_empire_modifier:0 "Fury of the Lost Titan"
+ originsextended_terminal_no_titan_empire_modifier_desc:0 "The great titan, which originally birthed life on our homeworld, has been lost in an interstellar battle for the ages. This event of incomprehensible magnitude is sure to remain engraved in the memory of our people for ages to come."
+ 
+ originsextended_terminal.301.name:0 "A Second Death"
+ originsextended_terminal.301.desc:0 "The great titan, which originally birthed life on our homeworld, has been lost in an interstellar battle for the ages. This event of incomprehensible magnitude is sure to remain engraved in the memory of our people for ages to come."
+ originsextended_terminal.301.a:0 "They have no idea what they have done."
+
+ # host digsite
+ d_oe_host_slug_home:0 "The Slug Forest"
+ d_oe_host_slug_home_desc:0 "Here the slug larvae are born, and the infants are raised, in a comortfable and strange environment filled with special pools, spaceborn chemicals, and more. It is a unique site bound for further study, and closely tied to our heritage, forever bound to this place."
+
+ originsextended_host_slug_home_site:0 "Origins of the Brain Slugs"
+ originsextended_host_slug_home_site_desc:0 "Our rapid progress from primitive to civilized is owed to our symbiotic nature with a species that attaches itself to our neural stems. Providing the service of enhancing our mental faculties, these 'brain slugs,' as we call them, have become fundamental to our scientific and philosophical endeavors.\n\nNow, as gaze towards the stars, perhaps it would be a good time to look deeper into the little creatures that make use whole, and utilize our new technological gains to find where they originall came from."
+
+ originsextended_host.9999.name:0 "Origins of the Brain Slugs"
+ originsextended_host.9999.desc:0 "Our rapid progress from primitive to civilized is owed to our symbiotic nature with a species that attaches itself to our neural stems. Providing the service of enhancing our mental faculties, these 'brain slugs,' as we call them, have become fundamental to our scientific and philosophical endeavors.\n\nNow, as gaze towards the stars, perhaps it would be a good time to look deeper into the little creatures that make use whole, and utilize our new technological gains to find where they originall came from."
+ originsextended_host.9999.a:0 "Begin the search!"
+
+ originsextended_host.101.name:0 "From Where They Came"
+ originsextended_host.101.desc:0 "Peering deep into the literature of our civilization and species as a whole, we have found clues about what appears to be the first encounter of the so-called brain slugs.\n\nOriginally a natural phenomenon, it seems to have been generally localized within a few of our key ancient civilizations in one continent, before spreading to more as the intake of slugs grew. The expedition is making their way there to try and find more about the original site."
+ originsextended_host.101.a:0 "Find it!"
+
+ originsextended_host.102.name:0 "The Recess"
+ originsextended_host.102.desc:0 "After some time, the expedition stumbled upon a previously unexplored and unmapped crevace on the side of a natural canyon. Not revealed by surface and ground-penetrating scans, it appears to make its way directly downward deeper into the planet, and the location is consistent with the historical and ancient accounts.\n\nNear the edge of the clifface, there does not seem to be any higher concentration of natural slugs, however, prompting multiple questions about the validity of the location as a point of interest. Nonetheless, the expedition is begining their lond descent."
+ originsextended_host.102.a:0 "Interesting."
+
+ originsextended_host.103.name:0 "Remnants of the Past"
+ originsextended_host.103.desc:0 "Deep into the crevace, the science team has come upon an awe-striking sight. All accross the tranquil cave-water pool is what appears to be a petrified forest, of trees, plants, and animals unlike any we have ever seen before. Sprawling tree coverage rising endlessly towards the top of the enormous cave system, and covering almost the entire ground.\n\nThough any signs of the brain slugs outright would be nearly impossible to deduce, there are some clues that a great number previously lived here, ages ago, given the tell-tale patterns on some of the rock. Given the extent of the cave system and its sprawling nature, it is possible there is more to find down here, and a full survey is being conducted in the case something new appears."
+ originsextended_host.103.a:0 "Keep searching!"
+
+ originsextended_host.104.name:0 "The Slug Forest"
+ originsextended_host.104.desc:0 "Following considerable efforts to map and explore the underground cave system, the exploration team was able to find what has now been called the slug forest, but is really a collosal cavern harboring life from the pre-sapient age of the planet, flora and fauna thought long-since gone and only previously seen in fossils.\n\nIn a soft glow of endless colors, slugs, gigantic trees, and elusive critters live in harmony, tucked away in a corner deep inside the planet. Immediately, the area has been deemed of critical value, and research efforts are being made to conserve the area and learn from the mysteries of our past."
+ originsextended_host.104.a:0 "Magnificent."
+
+ # infestation decision
+ originsextended_decision_infest_world:0 "Infest Planet"
+ originsextended_decision_infest_world_desc:0 "Undertaking a years-long process, the surface of this planet can be complete infested and converted into a hive world itself."
+ originsextended_decision_infest_world_requirements_1:0 "£trigger_no£ §RAll district slots on the planet must be filled with§! §Y$district_hive_plural$§! or §Y$district_industrial_plural$§!"
+ originsextended_decision_infest_world_requirements_2:0 "£trigger_no£ §RYou must not be infesting any other worlds§!"
+ originsextended_decision_infest_world_effects:0 "Turns the planet into an §Y$pc_hive$§!, increasing £housing£ §Y$PLANET_HOUSING_TITLE$§! and §YResource Production§! at the expense of the planet's natural resources becoming §Rinaccessible§!, preventing all further construction of £district£ §YGenerator§!, §YMining§! and §YAgriculture Districts§!."
+
