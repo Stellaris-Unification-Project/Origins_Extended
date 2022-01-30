@@ -154,8 +154,8 @@ originsextended_farming = {
 			NOR = {
 				value = civic_fanatic_purifiers
 				value = civic_death_cult
+				value = civic_death_cult_corporate
 			}
-			NOT = { value = civic_death_cult_corporate }
 		}
 		ethics = {
 			NOR = {
@@ -226,8 +226,8 @@ originsextended_core = {
 			NOR = {
 				value = civic_machine_servitor
 				value = civic_machine_terminator
+				value = civic_machine_assimilator
 			}
-			NOT = { value = civic_machine_assimilator }
 		}
 	}
 
@@ -387,8 +387,8 @@ originsextended_ecu = {
 			NOR = {
 				value = civic_agrarian_idyll
 				value = civic_mining_guilds
+				value = civic_environmentalist
 			}
-			NOT = { value = civic_environmentalist }
 		}
 	}
 	description = "originsextended_tooltip_ecu"
