@@ -151,15 +151,15 @@ originsextended_farming = {
 	}
 	possible = {
 		civics = {
-			NOT = { value = civic_fanatic_purifiers }
-			NOT = { value = civic_death_cult }
+			NOR = {
+				value = civic_fanatic_purifiers
+				value = civic_death_cult
+			}
 			NOT = { value = civic_death_cult_corporate }
 		}
 		ethics = {
-			NOT = {
-				value = ethic_gestalt_consciousness
-			}
 			NOR = {
+				value = ethic_gestalt_consciousness
 				text = civic_tooltip_not_egalitarian
 				value = ethic_egalitarian
 				value = ethic_fanatic_egalitarian
@@ -194,11 +194,9 @@ originsextended_engineered = {
 	max_once_global = yes
 	possible = {
 		ethics = {
-			NOT = {
+			NOR = {
 				value = ethic_gestalt_consciousness
-			}
-			NOT = {
-				value = ethic_fanatic_spiritualist	
+				value = ethic_fanatic_spiritualist
 			}
 		}
 		species_archetype = {
@@ -225,8 +223,10 @@ originsextended_core = {
 	possible = {
 		authority = { value = auth_machine_intelligence }
 		civics = {
-			NOT = { value = civic_machine_servitor }
-			NOT = { value = civic_machine_terminator }
+			NOR = {
+				value = civic_machine_servitor
+				value = civic_machine_terminator
+			}
 			NOT = { value = civic_machine_assimilator }
 		}
 	}
@@ -384,8 +384,10 @@ originsextended_ecu = {
 			NOT = { value = ethic_gestalt_consciousness }
 		}
 		civics = {
-			NOT = { value = civic_agrarian_idyll }
-			NOT = { value = civic_mining_guilds }
+			NOR = {
+				value = civic_agrarian_idyll
+				value = civic_mining_guilds
+			}
 			NOT = { value = civic_environmentalist }
 		}
 	}
@@ -409,8 +411,10 @@ originsextended_crowded = {
 	advanced_start = no
 	possible = {
 		civics = {
-			NOT = { value = civic_machine_assimilator }
-			NOT = { value = civic_machine_servitor }
+			NOR = {
+				value = civic_machine_assimilator
+				value = civic_machine_servitor
+			}
 		}
 	}
 }
@@ -453,8 +457,10 @@ originsextended_dual = {
 	}
 	possible = {
 		ethics = {
-			NOT = { value = ethic_gestalt_consciousness }
-			NOT = { value = ethic_fanatic_xenophobe }
+			NOR = {
+				value = ethic_gestalt_consciousness
+				value = ethic_fanatic_xenophobe
+			}
 		}
 		civics = {
 			NOT = {
@@ -579,10 +585,8 @@ originsextended_magnetica = {
 	possible = {
 		authority = { value = auth_machine_intelligence }
 		civics = {
-			NOT = {
+			NOR = {
 				value = civic_machine_assimilator
-			}
-			NOT = {
 				value = civic_machine_servitor
 			}
 		}

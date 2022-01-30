@@ -32,10 +32,8 @@ ship_event = {
 	option = {
 		trigger = {
 			owner = {
-				NOT = {
+				NOR = {
 					has_authority = auth_machine_intelligence
-				}
-				NOT = {
 					has_origin = originsextended_host
 				}
 				any_owned_pop = {

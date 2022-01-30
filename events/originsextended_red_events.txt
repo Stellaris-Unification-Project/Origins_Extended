@@ -134,10 +134,8 @@ fleet_event = {
 			if = {
 				limit = {
 					host_has_dlc = "Ancient Relics Story Pack"
-					NOT = {
+					NOR = {
 						has_trait = leader_trait_archaeologist_ancrel
-					}
-					NOT = {
 						has_trait = leader_trait_archaeologist
 					}
 				}
@@ -145,10 +143,8 @@ fleet_event = {
 			}
 			else_if = {
 				limit = {
-					NOT = {
+					NOR = {
 						has_trait = leader_trait_archaeologist_ancrel
-					}
-					NOT = {
 						has_trait = leader_trait_archaeologist
 					}
 				}
@@ -209,73 +205,49 @@ country_event = {
 	option = {
 		name = "originsextended_red.201.a.militarist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.xenophobe"
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.egalitarian"
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_egalitarian = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.materialist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.pacifist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.xenophile"
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
+			is_xenophile = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.authoritarian"
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_authoritarian = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.201.a.spiritualist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 		}
 	}
 
@@ -324,29 +296,21 @@ country_event = {
 	option = {
 		name = "originsextended_red.202.a.militarist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = "originsextended_red.202.a.pacifist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = originsextended_red.202.a
 		trigger = {
 			NOR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
+				is_pacifist = yes
+				is_militarist = yes
 			}
 		}
 	}

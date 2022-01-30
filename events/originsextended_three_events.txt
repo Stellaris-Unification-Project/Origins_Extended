@@ -93,10 +93,7 @@ country_event = {
 	option = {
 		name = "originsextended_three.101.a.xenophobe"
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 		owner = {
 			add_resource = {
@@ -114,10 +111,7 @@ country_event = {
 	option = {
 		name = "originsextended_three.101.a.pacifist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 		}
 		add_modifier = {
 			modifier = originsextended_three_solution_seeker_empire_modifier
@@ -126,10 +120,7 @@ country_event = {
 	option = {
 		name = "originsextended_three.101.a.militarist"
 		trigger = {
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_militarist = yes
 		}
 		create_fleet = {
 			effect = {
